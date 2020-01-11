@@ -1,0 +1,50 @@
+<ion-view id="comment" view-title="我的书评" cache-view="false" >
+    <ion-header-bar class="bar">
+        <i class="ion-left ion-chevron-left" ng-click="func_back()"></i>
+        <span class="font-text" ng-click="func_back()">返回</span>
+        <span class="bar-title">我的书评</span>
+    </ion-header-bar>
+    <ion-content class="scroll-content" scroll="true">
+        <div class="surface">
+        <div class="head">
+            <div class="div-head">
+                <img src="{{headUrl}}" alt="" class="headImg">
+            </div>
+            <div class="div-name">
+                <span class="sp-name">{{readerName}}</span>
+                <br>
+            </div>
+        </div>
+        <div class="div-comment" ng-repeat="item in data">
+            <div class="div-header">
+                <p class="p-txt">&nbsp;&nbsp;&nbsp;{{item.content}}</p>
+            </div>
+            <div class="div-middle">
+                <div class="bookPicturey">
+                    <img ng-src="{{item.book.url}}/img?a={{param}}">
+                </div>
+                <div class="bookContent">
+                    <div class="contentTitle">
+                        <span>{{item.book.name}}</span>
+                    </div>
+                    <div class="contentOutline">
+                        <span>{{item.book.author}}</span>
+                    </div>
+                    <div class="contentState" ng-click="func_goIntroduction('{{item.bookId}}','{{item.book.url}}')">
+                        <span>作品详情</span>
+                    </div>
+                </div>
+            </div>
+            <div class="div-bottom">
+                <div class="div-time">{{item.time}}</div>
+                <div class="div-news" ng-click="delete('{{item.id}}')"><img src="img/delete.png"><span class="badge ">删除</span>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+        <!-- <div class="animate back-show">
+                <img class="animated bounceInDown" src="/www/img/home/花瓣.gif">
+        </div> -->
+    </ion-content>
+</ion-view>

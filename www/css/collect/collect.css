@@ -1,0 +1,133 @@
+#collect .bar{
+    height: 50px;
+    width: 100%;
+    background-color: #ea9898;
+    border-color: #ebebeb;
+}
+#collect .bar-title{
+    margin-left: 100px;
+    font: bold 20px '楷体';
+    margin-top: 8px;
+}
+#collect .font-text{
+    margin-left: -8px;
+    margin-top: 10px;
+    font: bold 16px '楷体';
+}
+#collect .ion-left{
+    width: 28px;
+    height: 28px;
+    color: black;
+    font-size: 28px;
+    margin-left: 10px;
+    margin-top: 5px;
+    vertical-align:middle;
+}
+#collect  .scroll-content{
+    margin-top: 0px;
+    padding-top: 0px;
+    background:url('../../img/home/backimg.png'); 
+    background-size: 100% 100%;
+}
+#collect .book{
+    width: 100%;
+    background: #ead1d1;
+    box-shadow: 1px 1px 8px #808080a3
+}
+#collect .div-txt img{
+        height:42px;
+        width:24px;
+        float: left;
+        margin-left: 27px;
+        padding-top:17px;
+        margin-top: 1px
+    }
+#collect .div-txt {
+    height: 50px;
+    width: 100%;
+}
+#collect .div-txt span{
+    height:42px;
+    width:240px;
+    float: left;
+    margin-left: 3px;
+    padding-top:21px;
+    padding-left: 1px;
+    font: 18px '楷体';
+}
+#collect .div-book{
+    width: 100%;
+    height: 165px;
+    padding: 10px;
+}
+.div-img{
+    width:38%;
+    float:left;
+    margin-top: 10px
+}
+#collect .div-img img{
+    width: 90%;
+    height: 138px;
+    float: right;
+}
+#collect .div-title{
+    width: 62%;
+    height: 150px;
+    padding: 10px;
+    float: left;
+}
+#collect .p-title{
+    width: 92%;
+    height: 60%;
+    float: right;
+    font: bold 19px '楷体';
+    padding-top: 46px;
+}
+#collect .p-author{
+    font: bold 13px '楷体';
+    margin-top: 15px;
+    width: 90%;
+    height: 40%;
+    float: right;
+}
+#collect .div-bottom{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+}
+#collect .div-time{
+    width: 70%;
+    color: rgb(0, 0, 0);
+    font-family: '楷体';
+    font-size: 18px;
+    float: left;
+}
+#collect .div-news{
+    width: 30%;
+    text-align: center;
+    font-size: 24px;
+    float: right;
+}
+#collect  .div-news img{
+    height:42px;
+    width:24px;
+    float: left;
+    margin-left: 12px;
+    padding-top:17px;
+}
+#collect .div-news span{
+    background-color: transparent;
+    color: #AAAAAA;
+    z-index: 1;
+    display: inline-block;
+    padding: 3px 8px;
+    min-width: 10px;
+    border-radius: 10px;
+    vertical-align: baseline;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 16px;
+    font-family: '楷体';
+    line-height: 56px;
+    margin-left: -27px
+}

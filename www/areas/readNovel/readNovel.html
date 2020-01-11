@@ -1,0 +1,47 @@
+<ion-view view-title="阅读" id="readNovel" cache-view="false">
+
+    <ion-side-menus>
+      <ion-side-menu-content class="scroll-content" id="readNovel_content" on-tap="oneClick()" drag-content="false">
+        <ion-header-bar class="bar" ng-show="isShow">
+          <i class="ion-left ion-chevron-left" ng-click="back()"></i>
+          <span class="font-text" ng-click="back()">返回</span>
+        </ion-header-bar>
+        <ion-content class="has-header has-footer">
+          <div class="readShow">
+            <p class="text-m" id="sp_txt"></p>
+          </div>
+        </ion-content>
+
+        <ion-footer-bar id="readNovel_nav" ng-show="isShow">
+          <span ng-click="goCatalog()">
+            <i class="icon ion-ios-list-outline"></i>
+            <h2>目录</h2>
+          </span>
+          <span ng-click="openPopover($event)">
+            <i class="icon ion-ios-color-filter-outline"></i>
+            <h2>设置</h2>
+          </span>
+          <span ng_click="func_before()">
+              <i class="icon ion-android-arrow-back"></i>
+            <h2>上一章</h2>
+            <input type="hidden" id="before_position">
+          </span>
+          <span ng_click="func_after()">
+              <i class="icon ion-android-arrow-forward"></i>
+            <h2>下一章</h2>
+            <input type="hidden" id="after_position">
+          </span>
+        </ion-footer-bar>
+      </ion-side-menu-content>
+
+      <ion-side-menu side="left" id="readNovel_left" class="menu-left">
+        <ion-content>
+          <li class="li-catalog" ng-repeat="item in catalogItems" ng-click="func_read({{item.startLength}},{{item.endLength}},{{item.index}},{{catalogItems.length}})">
+            <p>{{item.title}}</p>
+          </li> 
+        </ion-content>
+      </ion-side-menu>
+
+    </ion-side-menus>
+      
+</ion-view>

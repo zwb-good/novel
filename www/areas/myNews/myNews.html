@@ -1,0 +1,31 @@
+<ion-view id="myNews" view-title="我的消息" cache-view="false">
+    <ion-header-bar class="bar">
+        <i class="ion-left ion-chevron-left" ng-click="func_back()"></i>
+        <span class="font-text" ng-click="func_back()">返回</span>
+        <span class="bar-title">我的消息</span>
+    </ion-header-bar>
+    <ion-content>
+        <div class="div-news" ng-repeat="item in allData" on-finish-render>
+            <div id="hiddenThis_{{item.id}}">
+                <div class="div-head">
+                    <img ng-src="{{item.reader.headUrl}}?a={{param}}" alt="" class="headImg">
+                    <span class="sp-name">{{item.reader.name}}</span>
+                    <br>
+                    <span class="sp-time">{{item.time}}</span>
+                    <span class="sp-replay" ng-click="func_replay('{{item.id}}','{{item.commentId}}','{{item.reader.userId}}')">回复</span>
+                </div>
+                <div class="div-msg">
+                    <span>{{item.content}}</span>
+                </div>
+                <div class="div-gotNews" >
+                    <span class="sp-friend-name">我:&nbsp&nbsp</span>
+                    <span id="myself_{{item.id}}"></span>
+                </div>
+                <label class="item item-input" id="replayInput_{{item.id}}">
+                    <span class="sp-lab-replay">回复{{item.reader.name}}：</span>
+                    <input type="text" id="replayTxt_{{item.id}}">
+                </label>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

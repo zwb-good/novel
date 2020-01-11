@@ -1,0 +1,76 @@
+#writeBook .mine{
+    background:url('../../img/home/backgimage1.png');
+    background-size: 100% 100%; 
+}
+#writeBook .item-header{
+    height: 360px;
+    width: 100%;
+}
+#writeBook .backimage{
+    height: 245px;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+}
+#writeBook .div-left-head{
+    height: 110px;
+    width: 110px;
+    border-radius:75px;
+    border: 2px white solid;
+    position: relative;
+    left: 50%;
+    margin-left: -55px;
+    margin-top: 185px;
+    z-index: 1;
+}
+#writeBook .div-left-name{
+    height: 90px;
+    width: 100%;
+    line-height: 90px;
+    font-size: 35px;
+    text-align: center;
+    font-family: '楷体';
+    float: left;
+}
+#writeBook .item-tab{
+    width: 100%;
+    height: 80px;
+    color: #444;
+    position: relative;
+    z-index: 2;
+    display: block;
+}
+#writeBook .item-tab .comment{
+    width: 55%;
+    position: relative;
+    font-size: 25px;
+    font-family: '行楷';
+    z-index: 2;
+    display: block;
+    float: left;
+    text-align: center;
+    margin-top: 35px;
+}
+#writeBook .sp-icon{
+    width: 45%;
+    font-size: 30px;
+    vertical-align:middle;
+    float: right;
+    text-align: center;
+    margin-top: 35px;
+    z-index: 2;
+}
+.redNews {
+    display: block;
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 32px;
+    left: 78%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+}

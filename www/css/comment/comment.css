@@ -1,0 +1,199 @@
+#comment .bar{
+    height: 50px;
+    width: 100%;
+    background-color: #ea9898;
+    border-color: #ebebeb;
+    color: white;
+}
+#comment  .scroll-content{
+    margin-top: 0px;
+    padding-top: 0px;
+    background:url('../../img/home/backimg.png'); 
+    background-size: 100% 100%;
+    opacity: 1.5;
+}
+#comment .surface{
+    z-index: 1;
+    position: absolute;
+}
+ #comment .animate{
+    z-index: -1;
+    position: absolute;
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+} 
+#comment .bar-title{
+    margin-left: 100px;
+    font: bold 20px '楷体';
+    margin-top: 8px;
+}
+#comment .font-text{
+    margin-left: -8px;
+    margin-top: 10px;
+    font: bold 16px '楷体';
+}
+#comment .ion-left{
+    width: 28px;
+    height: 28px;
+    color: white;
+    font-size: 28px;
+    margin-left: 10px;
+    margin-top: 5px;
+    vertical-align:middle;
+}
+#comment .head{
+    height: 70px;
+    width: 100%;
+    margin-top: 22px;
+    margin-left: 11px;
+}
+
+#comment .div-head{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    line-height: 70px;
+    float: left;
+    left: 10%;
+}
+#comment .headImg{
+    height: 70px;
+    width: 100%;
+    margin-top: -3px;
+    margin-left: 6px;
+    border-radius:75px;
+}
+#comment .div-name{ 
+    width: 70%;
+    margin-top: 20px;
+    float: right;
+}
+#comment .sp-name{ 
+    margin-top: 10px;
+    font-size: 22px;
+}
+#comment .div-comment{
+    width: 100%;
+    margin-top: 18px;
+    border-bottom: 1px #AAAAAA solid;
+}
+#comment .div-header{
+    width: 100%;
+    margin-top: 10px;
+    line-height: 20px;
+}
+#comment .p-txt{
+    margin: 10px;
+    font: 17px '楷体';
+}
+
+#comment .div-middle{
+    height:170px;
+    width:90%;
+    border:1px #f39b9b solid;
+    background-color: #f7ebdeba;
+    box-shadow:  0px 2px 6px #c1a5a5;
+    margin: 0 auto;
+}
+#comment .bookPicturey{
+    height:150px;
+    width:35%;
+    float: left;
+    margin-top: 10px;
+}
+#comment .bookContent{
+    height: 150px;
+    width: 65%;
+    float: right;
+}
+#comment .bookPicturey  img{
+    height:141px;
+    width:90%;
+    float: right;
+    padding-left:9px;
+    padding-top:5px;
+}
+#comment .contentTitle{
+    height: 42%;
+    width: 90%;
+    font-size: 22px;
+    font-family: 楷体;
+    padding-top: 43px;
+    float: right;
+} 
+#comment .contentOutline{
+    height: 30%;
+    width:90%;
+    padding-top: 20px;
+    float: right;
+}
+#comment .contentOutline span{
+    height:10%;
+    width:100%;
+    font-size: 16px;
+    font-family: '楷体';
+    color: black;
+}
+#comment .contentState{
+    height:28%;
+    width:50%;
+    font-size: 16px;
+    font-family: '楷体';
+    color: black;
+    padding-top: 25px;
+    float: right;
+}
+#comment .div-bottom{
+    height: 50px;
+    width: 100%;
+}
+#comment .div-time{
+    height: 50px;
+    width: 214px;
+    padding-left: 35px;
+    line-height: 56px;
+    color: #AAAAAA;
+    font-family: '楷体';
+    font-size: 16px;
+    float: left;
+}
+#comment .div-hart{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    line-height: 56px;
+    font-size: 20px;
+    float: left;
+}
+#comment .div-news{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    float: right;
+    margin:0 auto;
+}
+#comment  .div-news img{
+    height:42px;
+    width:24px;
+    float: left;
+    margin-left: 12px;
+    padding-top:17px;
+}
+#comment .div-news span{
+    background-color: transparent;
+    color: #AAAAAA;
+    z-index: 1;
+    display: inline-block;
+    padding: 3px 8px;
+    min-width: 10px;
+    border-radius: 10px;
+    vertical-align: baseline;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 56px;
+    margin-left: -27px
+}

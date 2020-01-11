@@ -1,0 +1,290 @@
+#cartoon {
+    width: 100%;
+    height: 100%;
+  }
+  #cartoon .search {
+    background-color: #f37171;
+  }
+  #cartoon .search label {
+    background-color: #ffffff;
+  }
+  #cartoon .search label i {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  #cartoon .search label input {
+    font-size: 16px;
+    font-family: '行楷'
+  }
+  #cartoon .search a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: '行楷'
+  }
+  #cartoon .cartoonSlide{
+    width: 100%;
+    height: 200px;
+  }
+  #cartoon .cartoonSlide_1 {
+    background-image: url(../../img/novelSlide/cartoonslide3.png);
+    background-repeat:space; 
+     background-size: 100% 100%;
+  }
+  #cartoon .cartoonSlide_2 {
+    background-image: url(../../img/novelSlide/cartoonslide2.png);
+    background-repeat:space;  background-size: 100% 100%;
+  }
+  #cartoon .cartoonSlide_3 {
+    background-image: url(../../img/novelSlide/cartoonslide1.png);
+    background-repeat:space;  background-size: 100% 100%;
+  }
+  #cartoon  .scroll-content{
+    background:url('../../img/home/backgimage1.png');
+    background-size: 100% 100%; 
+  
+  }
+  
+  #cartoon .cartoonMiddle {
+    width: 100%;
+    height: 430px;
+  }
+  #cartoon  .middleTitle,.bottomTitle {
+    width: 100%;
+    height: 50px;
+  }
+  #cartoon  .middleLeft img,.bottomLeft img{
+    height:42px;
+    width:24px;
+    float: left;
+    margin-left: 12px;
+    padding-top:17px;
+  }
+  
+  #cartoon  .middleLeft span,.bottomLeft span{
+    height: 50px;
+    width:50%;
+    float: left;
+    font-size: 18px;
+    margin-left: 1px;
+    padding-top: 19px;
+    font-family: 方正舒体;
+  }
+  #cartoon .middleRight span,.bottomRight span{
+    height:50px;
+    width:50px;
+    float: right;
+    font-size:15px;
+    margin-right: 27px;
+    padding-top:19px;
+    font-family: 方正舒体;
+  }
+  #cartoon .middleRight img,.bottomRight img{
+    height:35px;
+    width:24px;
+    float: right;
+    margin-right: -57px;
+    padding-top:18px;
+  }
+  #cartoon .middleFirst,.middleSecond{
+    height: 190px;
+    width:100%;
+  }
+  #cartoon .firstLeft,.secondLeft  {
+    height: 180px;
+    width: 49%;
+    margin: 0 ;
+    float: left;
+  }
+  #cartoon  .none{
+    width: 2%;
+    height: 190px;
+    float: left;
+  }
+  #cartoon .firstLeft img,.secondLeft img{
+    padding-top:10px;
+    height: 180px;
+    width: 90%;
+    float: right
+  }
+  #cartoon .firstRight,.secondRight  {
+    height: 190px;
+    width: 49%;
+    float: right;
+  }
+  #cartoon .firstRight  img,.secondRight  img{
+    padding-top:10px;
+    height: 180px;
+    width: 90%;
+  }
+  #cartoon .cartoonBottom {
+    width: 100%;
+    height: 354px;
+  }
+  #cartoon .bottomFirst  {
+    height: 180px;
+    width:100%;
+  }
+  #cartoon .bottomFirst  img{
+    height: 150px;
+    width:94%;
+    float:left;
+  }
+  #cartoon .bottomFirst .none{
+    height: 150px;
+    width:3%;
+    float: left;
+  }
+  #cartoon .bottomFirst .none1{
+    height: 150px;
+    width:3%;
+    float: right;
+  }
+  #cartoon .bottomSecond  {
+    height: 180px;
+    width:100%;
+    display: inline-block;
+  }
+  #cartoon .bottomOne{
+    width: 34%;
+    height: 150px;
+    float:left;
+  }
+  #cartoon .bottomOne img{
+    width: 89%;
+    height: 150px;
+    float:right;
+  }
+  #cartoon .bottomTwo{
+    width: 32%;
+    height: 150px;
+    float:left;
+  }
+  #cartoon .bottomTwo .none{
+    width: 3%;
+    height: 150px;
+    float:left;
+  }
+  #cartoon .bottomTwo .none1{
+    width: 3%;
+    height: 150px;
+    float:right;
+  }
+  #cartoon .bottomTwo img{
+    width: 94%;
+    height: 150px;
+    float:left;
+  }
+  #cartoon .bottomThree{
+    width: 34%;
+    height: 150px;
+    float: right;
+  }
+  #cartoon .bottomThree img{
+    width: 89%;
+    height: 150px;
+    float: left;
+  }
+  #cartoon  .sortTitle{
+    height: 50px;
+    width: 100%;
+    float: left;
+    border-radius: 5px;
+    margin-top: 41px
+  }
+  #cartoon  .title{
+    height: 50px;
+    width: 50%;
+    float: left;
+    font-family: '方正舒体';
+    font-size: 18px;
+    line-height: 50px;
+    
+  }
+  #cartoon  .recommendLeft span{
+    padding-left:px;
+  }
+  #cartoon  .change{
+    height: 50px;
+    width: 50%;
+    float: left;
+    font-family: '方正舒体';
+    font-size: 16px;
+    line-height: 50px;
+    padding-left: 110px;
+  }
+  #cartoon .recommendLeft i {
+    width: 34px;
+    height: 25px;
+  }
+  #cartoon .recommendLeft i img {
+    width: 34px;
+    height: 25px;
+  }
+  #cartoon .div-md{
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+  }
+  #cartoon .l-book{
+    float: left;
+    width: 100%;
+    height: 120px;
+    padding: 5px 15px 5px 10px;
+  }
+  #cartoon .l-img{
+    float: left;
+    width: 80px;
+    height: 110px;
+    margin: 0px 10px 0px 0px;
+  }
+  #cartoon .l-name{
+    height: 25%;
+    width: 100%;
+    font-family: "楷体";
+    font-size: 18px;
+    line-height: 35px;
+    margin-left: 5px;
+  }
+  #cartoon .l-abstract{
+    height: 50%;
+    width: 100%;
+    font-family: "楷体";
+    font-size: 14px;
+    padding-top: 9px;
+    margin-left: 5px;
+  }
+  #cartoon .l-author{
+    height: 25%;
+    width: 100%;
+    font-family: "楷体";
+    font-size: 13px;
+    line-height: 10px;
+    margin-left: 5px;
+    color: gray
+  }
+  #cartoon  .sm-book{
+    float: left;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+  }
+  #cartoon  .sm-img{
+    width: 63px;
+    height: 92px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+  }
+  #cartoon  .sm-name{
+    font-family: "楷体";
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  #cartoon  .sm-author{
+    font-family: "楷体";
+    font-size: 13px;
+    margin-top:17px;
+    color: grey
+  }
+  

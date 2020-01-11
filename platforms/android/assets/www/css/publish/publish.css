@@ -1,0 +1,96 @@
+#publish{
+    height: 100%;
+    width:100%;
+}
+#publish .header{
+    height:50px;
+    width:100%;
+    background-color: #f37171;
+    box-shadow:none;
+}
+#publish .header-left{
+    height:50px;
+    width: 30%;
+    float: left;
+    font-size:32px;
+    padding-left: 16px;
+    margin-top: 8px;
+    color: white;
+}
+#publish .header-center{
+    height:50px;
+    width: 230px;
+    float: right;
+    font-size: 21px;
+    padding-top: 13px;
+    color: white;
+}
+#publish .duanPian ,.modern,.classics,.others{
+    height:240px;
+    width:100%;
+    margin-top: 11px;
+    border-bottom: 1px solid grey
+}
+.content{
+    height:58px;
+    width:100%;
+}
+.content-left{
+    height: 100%;
+    width:15%;
+    float:left;
+    padding-top:10px;
+    padding-left:42px;
+}
+.content-left img{
+    height: 34px;
+    width:25px;
+    float:left;
+    background-repeat: no-repeat;
+}
+.content-title{
+    height:100%;
+    width:70%;
+    float:left;
+    margin-left: 22px;
+}
+.titleFirst {
+  height:66%;
+  width:100%;
+  padding-top:5px;
+}
+.titleFirst span{
+  height:100%;
+  width:100%;
+  font-size: 18px;
+  font-family: PingFang SC;
+}
+.titleSecond span{
+    height: 40%;
+    width:100%;
+    font-size:14px;
+    font-family: 行楷;
+    line-height:4px;
+    margin-top: 5px;
+}
+.content-right i{
+    height: 100%;
+    width: 15%;
+    float: right;
+    font-size: 23px;
+    margin-right: -25px;
+    margin-top: 18px;
+}
+.bookPicture{
+    height: 160px;
+    width: 100%;
+    margin:0px 0 0 13px;
+}
+.bookPicture img {
+    height: 160px;
+    width: 125px;
+    float: left;
+    padding-left: 9px;
+    padding-top: 15px;
+}
+

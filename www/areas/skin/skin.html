@@ -1,0 +1,30 @@
+<ion-view id="skin" view-title="意见反馈" cache-view="false" ng-controller="collectCtrl">
+    <ion-header-bar class="bar">
+        <i class="ion-left ion-chevron-left" ng-click="func_back()"></i>
+        <span class="font-text" ng-click="func_back()">返回</span>
+        <span class="bar-title">意见反馈</span>
+    </ion-header-bar>
+    <ion-content>
+        <div class="descr">
+            <div class="descr-head">
+                <span>问题或意见(0/200)</span>
+            </div>
+            <div class="descr-bottom">
+         
+                <textarea cols="60" rows="5" style="background-color:#9e9e9e24;color: gray">请输入遇到的问题或意见...</textarea>
+         
+        </div>
+        </div>
+        <div class="image">
+            <div class="image-head">
+                <span>图片(选填，提供问题截图)</span>
+            </div>
+            <div class="div-img-head" ng-click="func_changeHeadImage()"
+                style="background: url('../../img/upload.png') no-repeat;background-size: 27% 95%;
+                background-position: 17px 3px;"></div>
+        </div>
+        <div class="finish">
+            <input type="submit" value="完成"/>
+        </div>
+    </ion-content>
+</ion-view>

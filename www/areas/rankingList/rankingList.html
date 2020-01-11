@@ -1,0 +1,25 @@
+<ion-view view-title="排行榜" id="rankingList"  hide-back-button="true" cache-view="false">
+    <ion-header-bar  class="bar">
+        <i class="ion-left ion-chevron-left" ng-click="func_back()"></i>
+        <span class="font-text" ng-click="func_back()">返回</span>
+        <span class="bar-title">排行榜</span>
+        <a class="ion-right" ui-sref="search">
+            <i class="icon ion-ios-search-strong"></i>
+        </a>
+    </ion-header-bar>
+    <nav id="nav" class="bg">
+        <ul>
+            <li ng-class="$index==0?'nav-current':'nav-blur'" ng-repeat="item in rankData" 
+            ng-click="rankLeftClick($event);getRankDetailData(item.typeNumber)">{{item.name}}</li>
+        </ul>
+    </nav>
+    <div id="show">
+        <li class="li-book" ng-repeat="item in rankDetailData" 
+        ui-sref="novelIntroduction({novelName:{{item.id}}})">
+            <img src="{{item.src}}" class="li-i-book"> 
+            <div id="name">{{item.name}}</div>
+            <div id="abstract">{{item.abstract}}</div>
+            <div id="author">{{item.author}}</div>
+        </li>
+    </div>
+</ion-view>

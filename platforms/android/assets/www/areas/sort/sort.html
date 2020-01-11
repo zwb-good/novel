@@ -1,0 +1,19 @@
+<ion-view view-title="分类页面" id="sort" cache-view="false">
+    <ion-header-bar class="bar">
+        <i class="ion-left ion-chevron-left" ng-click="func_back()"></i>
+        <span class="font-text" ng-click="func_back()">返回</span>
+        <span class="bar-title">分类</span>
+        <a class="ion-right" ui-sref="search">
+            <i class="icon ion-ios-search-strong"></i>
+        </a>
+    </ion-header-bar>
+    <ion-content class="bg">
+        <div class="div-sort" ng-repeat="item in data" ng-click="goBookList('{{item.id}}','{{item.name}}')">
+            <div class="div-title">{{item.name}}</div>
+            <div class="div-img">
+                <img ng-src="{{item.url}}?a={{param}}" class="i-book">
+            </div>
+            <div class="div-other">东西玄幻|异界大陆</div>
+        </div>
+    </ion-content>
+</ion-view>

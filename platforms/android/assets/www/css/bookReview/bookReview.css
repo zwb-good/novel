@@ -1,0 +1,228 @@
+/* 一本书的评论样式文件 */
+#bookReview{
+    background:url('/www/img/home/backgimage1.png'); 
+    background-size: 100% 100%;
+}
+#bookReview .bar{
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    background: #f37171;
+}
+#bookReview .bar .title{
+    line-height: 52px;
+    width: 73%;
+    text-align: center;
+}
+#bookReview .ion-left{
+    width: 28px;
+    height: 28px;
+    color: white;
+    font-size: 28px;
+    vertical-align:middle;
+}
+#bookReview .div-book{
+    height:180px;
+    width:100%;
+    background-color: #f7ebdeba;
+    padding: 12px;
+}
+#bookReview .div-book .image{
+    height:150px;
+    width:30%;
+    float: left;
+}
+#bookReview .bookImg{
+    width: 85%;
+    height: 130px;
+    float: right;
+    margin-top: 20px;
+}
+#bookReview .div-book .comment{
+    height:150px;
+    width:70%;
+    float:right;
+}
+#bookReview .l-name{
+    height: 25%;
+    width: 90%;
+    font-family: "楷体";
+    font-size: 22px;
+    line-height: 45px;
+    float:right;
+    display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+}
+#bookReview .l-abstract{
+    height: 50%;
+    width: 90%;
+    font-family: "楷体";
+    font-size: 18px;
+    float:right;
+    margin-top: 5px;
+    /* text-indent: 36px; */    /* 首行缩进 */
+    line-height: 24px;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+    -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+    -webkit-line-clamp: 3; /** 显示的行数 **/
+    overflow: hidden;  /** 隐藏超出的内容 **/
+}
+#bookReview .l-author{
+    height: 25%;
+    width: 90%;
+    font-family: "楷体";
+    font-size: 15px;
+    float:right;
+    line-height: 40px;
+    margin-top: 5px;
+    color: rgb(110, 100, 100);
+    display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+}
+#bookReview .div-title{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    border-radius: 8px;
+    margin-top: 5px;
+    background:rgb(235, 214, 175);
+}
+#bookReview .div-title i {
+    font-size: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 3px;
+    height: 25px;
+    background: url(../../img/sprite.png) -160px 0;
+}
+#bookReview .word{
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: "楷体";
+    vertical-align: middle;
+}
+#bookReview .comment{
+    margin-top: 10px;
+    width: 100%;
+    border-bottom:1px #cccccc solid
+}
+#bookReview .userImg{
+    width: 100%;
+    height: 54px;
+    font-size: 18px;
+    font-family: "楷体";
+}
+#bookReview  .userImg .image{
+    width: 50%;
+    height: 54px;
+    float: left;
+    font-size: 18px;
+    font-family: "楷体";
+}
+#bookReview .userImg .time{
+    width: 50%;
+    float: right;
+    height: 54px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#bookReview .head{
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    margin: 3px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+#bookReview .div-text{
+    width: 80%;
+    margin: 10px auto;
+    line-height: 22px;
+    font-size: 18px;
+    text-indent:36px;
+    font-family: '楷体';
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+    -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+    -webkit-line-clamp: 3; /** 显示的行数 **/
+    overflow: hidden;  /** 隐藏超出的内容 **/
+}
+#bookReview .div-time{
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    font-family: '楷体';
+    margin-top: 20px;
+
+}
+#bookReview .div-more{
+    width: 100%;
+    font-size: 18px;
+    font-family: '楷体';
+    line-height: 30px;
+    padding-left: 20px; 
+    margin-top: 1px;
+}
+#bookReview .div-sp-name{
+    color: blue;
+    font-size: 16px;
+}
+#bookReview .div-time .time{
+    float: left;
+    height: 30px;
+    margin-left: 20px;
+    line-height: 30px;
+    color: gray;
+    font-size: 16px;
+    font-family: '楷体';
+}
+.fave1 {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #EA6F5A;
+    background: url(../../img/test.png) no-repeat;
+    background-position: left;
+    background-size: auto 100%;
+    vertical-align: middle;
+}
+.fave1.active {
+    background-color: #EA6F5A;
+    background-position: right;
+    /* 主要在这一步 */
+    transition: background .6s steps(19);
+}
+#bookReview .div-time .sp-icon1{
+    float: right;
+    height: 30px;
+    margin-right: 10px;
+    font-size: 22px;
+    vertical-align: middle;
+    color: #ff3100;
+}
+#bookReview .div-time .sp-icon2{
+    float: right;
+    height: 30px;
+    margin-right: 10px;
+    font-size: 22px;
+    vertical-align: middle;
+    color: #ff3100;
+}
+#bookReview .div-time .sp-icon2 i{
+    font-size: 30px;
+    vertical-align: middle;
+}
+#bookReview .sp-badge{
+    font-size: 16px;
+    vertical-align: middle;
+    color: gray;
+}
+#bookReview .title1{
+    font-size: 20px;
+    font-family: '行楷';
+    width:100%;
+    text-align: center;
+}

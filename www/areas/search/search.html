@@ -1,0 +1,35 @@
+<ion-view view-title="搜索" id="searchPage" cache-view="false">
+  <div class="bar bar-header item-input-inset searchPageSearch">
+    <button class="button ion-chevron-left icon-left searchBack" ng-click="func_back()"></button>
+    <label class="item-input-wrapper">
+      <i class="icon ion-ios-search"></i>
+      <input type="text" placeholder="斗破苍穹" id="search_txt">
+    </label>
+    <span id="sp_search" ng-click="func_search()">搜索</span>
+  </div>
+
+  <div class="allSearch">
+    <span class="allSearch_title">大家都在搜</span>
+    <ul>
+      <li><span class="styleSpan_1">一树梨花落晚风</span></li>
+      <li><span class="styleSpan_2">斗破苍穹</span></li>
+      <li><span class="styleSpan_3">一树梨花落晚风</span></li>
+      <li><span class="styleSpan_1">遮天</span></li>
+      <li><span class="styleSpan_2">万古神帝</span></li>
+      <li><span class="styleSpan_3">花儿与少年</span></li>
+    </ul>
+    <hr class="search_hr"/>
+    <div class="searchHistory">
+      <span class="allSearch_title">搜索历史</span>
+      <i class="icon ion-trash-a search_trash"></i>	
+      <ul>
+        <li><span class="styleSpan_1">一树梨花落晚风</span></li>
+        <li><span class="styleSpan_2">斗破苍穹</span></li>
+        <li><span class="styleSpan_3">一树梨花落晚风</span></li>
+        <li><span class="styleSpan_1">遮天</span></li>
+        <li><span class="styleSpan_2">万古神帝</span></li>
+        <li><span class="styleSpan_3">花儿与少年</span></li>
+      </ul>
+        </div>
+  </div>
+</ion-view>

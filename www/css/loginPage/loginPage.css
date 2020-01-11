@@ -1,0 +1,65 @@
+.background1 {
+  background-image: url('../../img/loginback.png') ;
+  background-size: 100% 100%;
+}
+.shulu{
+  width: 100%;
+  height: 160px;
+  margin-top: 349px;
+}
+.re-input {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  width: 330px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  border-bottom: 1px solid #f37171;
+}
+.account-left,.password-left {
+  font-size: 21px;
+  line-height: 21px;
+  width:20px;
+}
+.account-center img,.password-center img{
+  width:20px;
+  height: 23px;
+  margin-top: 5px;
+}
+.re-input input {
+  margin-left: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.re-button {
+  width: 295px;
+  margin: 0 auto;
+}
+.re-button button {
+  border-radius: 20px;
+  background-color: #f37171;
+  color: #ffffff;
+}
+.re-button a {
+  text-decoration: none;
+  color: #312727;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+.false{
+  margin-left: 13px;
+}
+.forget {
+  float: left;
+  margin-left: 10px;
+}
+.regin {
+  float:right;
+  margin-right: 10px;
+}
+#login_erro {
+  float: right;
+  margin: 0 30px 15px 0;
+  color: red;
+}

@@ -1,0 +1,77 @@
+#sort .bar{
+    height: 50px;
+    width: 100%;
+    background-color: #f37171;
+    border-color: #f37171;
+}
+#sort .bar-title{
+    width: 55%;
+    font: bold 20px '楷体';
+    color: white;
+    margin-top: 14px;
+    text-align: center;
+}
+#sort .font-text{
+    width: 15%;
+    margin-top: 16px;
+    color: white;
+    font: bold 16px '楷体';
+}
+#sort .ion-left{
+    width: 10%;
+    height: 28px;
+    color: white;
+    font-size: 28px;
+    margin-top: 10px;
+    text-align: center;
+    vertical-align:middle;
+}
+#sort .ion-right{
+    width: 20%;
+    height: 35px;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+#sort .bg{
+        margin-top: 0px;
+        padding-top: 0px;
+        background:url('../../img/home/backgimage1.png'); 
+        background-size: 100% 100%;
+        background-attachment: scroll;
+    
+}
+#sort .div-sort{
+    background: #b8c71a59;
+    margin: 15px 0px 0px 12px;
+    float: left;
+    height: 115px;
+    width: 45%;
+}
+#sort .div-title{
+    height: 70px;
+    width: 50%;
+    float: left;
+    padding: 18px 0px 0px 25px;
+    font: 19px bold;
+}
+#sort .div-img{
+    height: 70px;
+    width: 50%;
+    float: left;
+    padding: 6px 0px 0px 7px;
+}
+#sort .i-book{
+    width: 80%;
+    height: 95%;
+}
+#sort .div-other{
+    height: 30px;
+    width: 100%;
+    padding: 5px 0px 5px 15px;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 楷体;
+    float: left;
+}

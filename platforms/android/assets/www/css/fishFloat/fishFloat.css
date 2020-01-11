@@ -1,0 +1,65 @@
+  /*页面标题下方动画位置*/
+ .animate {
+    position: absolute;
+    left: 80%;
+    bottom: 25%;
+    color: #fff;
+    display: -moz-box;
+  }
+  .animate img {
+    width: 71px;
+    height: 94px;
+  
+  }
+   .animated {
+    -webkit-animation-duration: 7s;
+    /*动画默认效果为暂停*/
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: both;
+  }
+  /*动画部分隐藏*/
+   .hidden{
+    display: none!important;
+  }
+  /*设置动画的播放效果*/
+   .back-show .bounceInDown {
+    -webkit-animation-name: bounceInDown;
+    /*动画开始播放*/
+    -webkit-animation-play-state: running;
+    -webkit-animation-delay: 0s;
+    display: block;
+   }
+  @-webkit-keyframes bounceInDown {
+    0%, 60%, 75%, 90%, 100% {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      -webkit-animation-timing-function: linear;
+      animation-timing-function:linear;
+    }
+      0% {
+        opacity: 0;
+        -webkit-transform: translate3d(10px, 10px, 0);
+        transform: translate3d(1px, 10px, 0)
+      }
+      60% {
+        opacity: 1;
+        -webkit-transform: translate3d(-150px, 350px, 0);
+        transform: translate3d(-150px, 350px, 0);
+      }
+      75% {
+        opacity: 1;
+        -webkit-transform: translate3d(-180px, 405px, 0);
+        transform: translate3d(-180px, 405px, 0);
+      }
+      90% {
+        opacity: 1;
+        -webkit-transform: translate3d(-250px, 555px, 0);
+        transform: translate3d(-250px, 555px, 0);
+      }
+      100% {
+        opacity: 0;
+        -webkit-transform: translate3d(-380px, 615px, 0);
+        transform: translate3d(-300px, 615px, 0);
+      }
+    }
+   

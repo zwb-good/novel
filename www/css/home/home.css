@@ -1,0 +1,96 @@
+/**
+*   主页-书架样式
+ */
+#home .div-img-head{
+    height: 45px;
+    width: 45px;
+    border-radius:45px;
+    margin: -2px 0px 0px 0px;
+    }
+#home .headimage{
+    width: 85%;
+    float: left;
+    }
+   
+#home .bar{
+    height: 50px;
+    width: 100%;
+    /* background-color: #ebebeb;
+    border-color: #ebebeb; */
+    /* background-color: rgba(243, 113, 113, 0.5); */
+    background:url('../../img/home/homehead.png') ;
+    background-size: 100% 100%; 
+}
+#home .menu-content > ion-content:nth-child(2) {
+    margin-top: 0px;
+    padding-top: 0px;
+    background:url('../../img/home/backgimage1.png'); 
+    background-size: 100% 100%;
+}
+#home li{
+    font: bold 18px '楷体';
+}
+#home .ion-right{
+    width: 15%;
+    height: 35px;
+    color: white;
+    font-size: 31px;
+    margin-top: 10px;
+    float: right
+}
+#home .book{
+    width: 100%;
+    height: 200px;
+    margin-top:9px;
+    box-shadow: 2px 4px 6px #c1a5a5
+}
+#home .show-book{
+    width: 120px;
+    height: 190px;
+    float:left;
+    margin-left: 13px;
+    margin-top: 15px;
+}
+#home .div-img{
+    width: 122px;
+    height: 172px;
+    margin-left: 1px;
+}
+#home .menu-left{
+    background:url('../../img/home/backgimage1.png');
+    background-size: 100% 100%; 
+}
+#home .item-header{
+    min-height: 180px;
+    line-height: 180px;
+    padding: 25px 0px 25px 20px;
+}
+#home .div-left-head{
+    height: 130px;
+    width: 130px;
+    border-radius:75px;
+    float: left;
+    background: #f37171;
+}
+#home .div-left-name{
+    height: 130px;
+    width: 120px;
+    padding: 20px;
+    line-height: 90px;
+    font-size: 30px;
+    font-family: '楷体';
+    float: left;
+}
+#home .item-tab{
+    color: #444;
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin: 15px;
+    padding: 16px;
+}
+#home .sp-icon{
+    margin-left: 100px;
+    font-size: 30px;
+    vertical-align:middle;
+}

@@ -1,0 +1,22 @@
+<ion-view id="home" view-title="书架" cache-view="false">
+    <ion-side-menus>
+        <ion-side-menu-content>
+            <ion-header-bar align-text="left" class="bar">
+                <div class="headimage">
+                    <img class="div-img-head" src="{{headUrl}}">
+                </div>
+                <a class="ion-right" ng-click="goSearch()">
+                    <i class="icon ion-ios-search-strong"></i>
+                </a>
+            </ion-header-bar>
+            <ion-content class="scroll-content" scroll="true">
+                <div class="book">
+                    <div class="show-book" ng-repeat="item in data"
+                        ng-click="func_goIntroduction('{{item.bookId}}','{{item.book.url}}')">
+                        <img ng-src="{{item.book.url}}/img?a={{param}}" alt="" class="div-img">
+                    </div>
+                </div>
+            </ion-content>
+        </ion-side-menu-content>
+    </ion-side-menus>
+</ion-view>

@@ -1,0 +1,41 @@
+/**
+*  底部状态卡图标样式
+  */
+.icon {
+    width: 35px;
+    height: 35px;
+    fill: currentColor;
+    overflow: hidden;
+}
+.icon-home-outline{
+    background:url('../../img/png/book.png') no-repeat center;
+    background-size: 32px 32px;
+}
+.icon-home{
+    background:url('../../img/png/booka.png') no-repeat center;
+    background-size: 32px 32px;
+}
+.icon-bookshop-outline{
+    background:url('../../img/png/bookshop.png') no-repeat center;
+    background-size: 32px 32px;
+}
+.icon-bookshop{
+    background:url('../../img/png/bookshopa.png') no-repeat center;
+    background-size: 32px 32px;
+}
+.icon-cartoon-outline{
+    background:url('../../img/png/cartoon.png') no-repeat center;
+    background-size: 32px 32px;
+}
+.icon-cartoon{
+    background:url('../../img/png/cartoona.png') no-repeat center;
+    background-size: 32px 32px;
+}
+.icon-writeBook-outline{
+    background:url('../../img/png/writeBook.png') no-repeat center;
+    background-size: 32px 32px;
+}
+.icon-writeBook{
+    background:url('../../img/png/writeBooka.png') no-repeat center;
+    background-size: 32px 32px;
+}

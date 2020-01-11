@@ -1,0 +1,18 @@
+<ion-view view-title="书单" id="bookList" cache-view="false">
+    <ion-header-bar  class="bar">
+        <i class="ion-left ion-chevron-left" ng-click="func_back()"></i>
+        <span class="font-text" ng-click="func_back()">返回</span>
+        <span class="bar-title">{{title}}</span>
+        <a class="ion-right" ui-sref="search">
+            <i class="icon ion-ios-search-strong"></i>
+        </a>
+    </ion-header-bar>
+    <ion-content class="bg">
+        <li class="li-bookList" ng-repeat="item in data" ng-click="func_goIntroduction('{{item.id}}','{{item.url}}')">
+            <img ng-src="{{item.url}}/img?a={{param}}" class="li-i-book"> 
+            <div id="name">{{item.name}}</div>
+            <div id="abstract">{{item.abstractText}}</div>
+            <div id="author">{{item.author}}</div>
+        </li>
+    </ion-content>
+</ion-view>

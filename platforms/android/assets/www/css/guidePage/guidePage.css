@@ -1,0 +1,220 @@
+/**
+* 引导页css样式
+*/
+#guidePage #guideSlide{ 
+    height: 100%; /* 必须要，不然就是一条横线看不到幻灯片的样式 */
+}
+#guidePage .item-bg-1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url('../../img/guidePage/lotus.png') no-repeat;
+    background-size: 100% 100%;
+}
+#guidePage .item-bg-2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url('../../img/guidePage/peach.png') no-repeat;
+    background-size: 100% 100%;
+}
+#guidePage .item-bg-3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url('../../img/guidePage/umbrella.png') no-repeat;
+    background-size: 100% 100%;
+}
+#guidePage #goHome{
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    left: 50%;
+    color: #ffffff;
+    background-color: #f80909 ;
+    margin-left: -80px;
+    font-size: 22px;
+    font-family: 楷体;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 480px;
+    border-radius: 18px;
+}
+  /*引导页标题下方动画位置*/
+  #guidePage .animate {
+    position: absolute;
+    left: 0;
+    bottom: 15%;
+    width: 100%;
+    color: #fff;
+    display: -moz-box;
+  }
+  #guidePage .item-bg-1 .animate span {
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 0px;
+    font-family: 楷体;
+    font-size: 22px;
+    color: black;
+    margin-bottom: 5px
+  }
+  #guidePage .item-bg-1 .animate li {
+    width: 95%;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+    font-size: 22px;
+    text-align: right;
+    font-family: 楷体;
+    color: black;
+  }
+  #guidePage .item-bg-2 .animate span {
+    width: 99%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 32px;
+    font-family: 楷体;
+    font-size: 19px;
+    color: black;
+    margin-bottom: 5px
+  }
+  #guidePage  .item-bg-2 .animate li {
+    width: 96%;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+    font-size: 18px;
+    text-align: right;
+    font-family: 楷体;
+    color: black;
+  }
+  #guidePage .animate li:nth-child(3) {
+    text-align: left;
+    float: right;
+  }
+  #guidePage  .animated {
+    -webkit-animation-duration: 3s;
+    /*动画默认效果为暂停*/
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: both;
+  }
+  /*动画部分隐藏*/
+  #guidePage  .hidden{
+    display: none!important;
+  }
+  /*设置动画的播放效果*/
+  #guidePage  .guide-show .bounceInUp {
+    -webkit-animation-name: bounceInUp;
+    /*动画开始播放*/
+    -webkit-animation-play-state: running;
+    -webkit-animation-delay: 2s;
+    display: block;
+  }
+  #guidePage  .guide-show .bounceInLeft {
+    -webkit-animation-name: bounceInLeft;
+    display: block;
+    /*动画开始播放*/
+    -webkit-animation-play-state: running;
+  }
+  #guidePage  .guide-show .bounceInRight {
+    -webkit-animation-name: bounceInRight;
+    display: block;
+    /*动画开始播放*/
+    -webkit-animation-play-state: running;
+    -webkit-animation-delay: 0.5s;
+  }
+  @-webkit-keyframes bounceInUp {
+    0%, 60%, 75%, 90%, 100% {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    
+      -webkit-animation-timing-function: linear;
+      animation-timing-function:linear;
+    }
+      0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 3000px, 0);
+        transform: translate3d(0, 3000px, 0)
+      }
+      60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, -25px, 0);
+        transform: translate3d(0, -25px, 0);
+      }
+      75% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, -15px, 0);
+        transform: translate3d(0, -15px, 0);
+      }
+      90% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, -5px, 0);
+        transform: translate3d(0, -5px, 0);
+      }
+      100% {
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+  @-webkit-keyframes bounceInLeft {
+    0%, 60%, 75%, 90%, 100% {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(-3000px, 0, 0);
+      transform: translate3d(-3000px, 0, 0);
+    }
+    60% {
+      opacity: 1;
+      -webkit-transform: translate3d(25px, 0, 0);
+      transform: translate3d(25px, 0, 0);
+    }
+    75% {
+      -webkit-transform: translate3d(-10px, 0, 0);
+      transform: translate3d(-10px, 0, 0);
+    }
+    90% {
+      -webkit-transform: translate3d(5px, 0, 0);
+      transform: translate3d(5px, 0, 0);
+    }
+    100% {
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  @-webkit-keyframes bounceInRight {
+    0%, 60%, 75%, 90%, 100% {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(3000px, 0, 0);
+      transform: translate3d(3000px, 0, 0);
+    }
+    60% {
+      opacity: 1;
+      -webkit-transform: translate3d(-25px, 0, 0);
+      transform: translate3d(-25px, 0, 0);
+    }
+    75% {
+      -webkit-transform: translate3d(10px, 0, 0);
+      transform: translate3d(10px, 0, 0);
+    }
+    90% {
+      -webkit-transform: translate3d(-5px, 0, 0);
+      transform: translate3d(-5px, 0, 0);
+    }
+    100% {
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+
+  

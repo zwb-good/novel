@@ -1,0 +1,238 @@
+.novelIntroduction_header {
+  background:#f37171;
+}
+#novelIntroduction .sp-title{
+  font-size: 20px;
+  line-height: 34px;
+  color: white;
+  float:left;
+  width:57%;
+  text-align: center;
+}
+#novelIntroduction .bt-icon{
+  border: none;
+  width: 23%;
+  float: right;
+  font-size: 25px;
+  line-height: 34px;
+  color: white;
+}
+#novelIntroduction .bar .button.button-icon:before, 
+.bar .button .icon:before, .bar .button.icon:before, 
+.bar .button.icon-left:before, .bar .button.icon-right:before, 
+.bar button.button-icon:before, .bar button .icon:before,
+.bar button.icon:before, .bar button.icon-left:before, 
+.bar button.icon-right:before {
+  font-size: 25px;
+  line-height: 34px;
+}
+.headerBar-bg {
+  background-color: #c91523;
+  opacity: 0;
+  height: 35px;
+  position: absolute;
+  width: 100%;
+}
+.novelIntroduction_header .title {
+  color: #bbbbbb;
+}
+.novelIntroduction_header button {
+  background:none;
+  color: white;
+  width: 20%;
+  float: left;
+}
+.novelIntroduction_content {
+  width: 100%;
+  overflow: scroll;
+}
+.novelIntroduction_novelCover {
+  width: 150px;
+  height: 200px;
+  margin: 60px 0px 0px 20px;
+}
+.novelIntroduction_novelName {
+  position: absolute;
+  left: 200px;
+  top: 80px;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: '楷体';
+  color: #333333;
+}
+.novelIntroduction_novelAuthor {
+  position: absolute;
+  left: 200px;
+  top: 130px;
+  color: #23b383;
+  font-weight: 600;
+  font-family: '楷体';
+}
+.novelIntroduction_novelType {
+  position: absolute;
+  left: 200px;
+  top: 190px;
+  color: #999999;
+  font-size: 20px;
+  font-family: '楷体';
+}
+.novelIntroduction_novelSynopsis {
+  width: 371px;
+  margin: 20px auto;
+  font-size: 16px;
+  font-family: '行楷';
+  color: #333333;
+  line-height: 25px;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 4; /** 显示的行数 **/
+  overflow: hidden;  /** 隐藏超出的内容 **/
+  
+}
+.novelIntroduction_chapter {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+}
+hr {
+  width: 371px;
+  height: 1px;
+  border-top: solid #e6e7ed 1px;
+  margin: 0 auto;
+}
+.novelIntroduction_chapter i {
+  font-size: 20px;
+  color: #808080;
+  margin: 0 20px;
+  vertical-align: middle;
+}
+.novelIntroduction_chapter h2 {
+  display: inline-block;
+  color: #333333;
+  font-size: 16px;
+  vertical-align: middle;
+}
+.novelIntroduction_chapter span {
+  font-size: 14px;
+  color: #999999;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+.novelIntroduction_comment {
+  width: 100%;
+  height: 300px;
+  border-top: 13px solid #f9f9fb;
+}
+.novelIntroduction_comment_title {
+  width: 100%;
+  height: 34px;
+}
+.novelIntroduction_comment_title span {
+  vertical-align: middle;
+}
+.comment_leftIcon {
+  display: inline-block;
+  width: 3px;
+  height: 16px;
+  background: url('../../img/sprite.png') -180px 0;
+  margin: 9px 10px 9px 0 ;
+}
+.comment_leftText {
+  font-size: 16px;
+  font-family: '行楷';
+  font-weight: 600px;
+}
+.comment_rightIcon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url('../../img/sprite.png') -200px 0;
+  margin: 9px 10px 9px 0px ;
+}
+.comment_rightText {
+  font-size: 16px;
+  float: right;
+  color: #f37171;
+  font-weight: 600px;
+  margin: 9px 10px 9px 0px ;
+}
+.novelIntroduction_comment_content {
+  width: 100%;
+  height: 110px;
+  position: relative;
+  margin-top: 15px;
+}
+.novelIntroduction_comment_content div {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 20px;
+  position: absolute;
+}
+.comment_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+  margin: 0 10px 0 20px;
+}
+.comment_name {
+  font-size: 18px;
+  font-family: '行楷';
+  color: #999999;
+  width: 120px;
+  position: absolute;
+}
+.comment_content {
+  width: 371px;
+  font-size: 17px;
+  font-family: '行楷';
+  margin: 50px 0px 10px 20px;
+  color: #333333;
+  line-height: 25px;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2; /** 显示的行数 **/
+  overflow: hidden;  /** 隐藏超出的内容 **/
+  position: absolute;
+}
+.novelIntroduction_footer {
+  height: 60px;
+  font-size: 0;
+  padding: 0;
+  border-top: 1px solid #dddddd;
+}
+.novelIntroduction_footer span {
+  display: inline-block;
+  width: 33%;
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+.novelIntSpan_1 {
+  background-color: #f37171;
+  color: #ffffff;
+}
+.novelIntSpan_2 {
+  background-color: #ffffff;
+  color: #f37171;
+}
+.seeAllComment {
+  color: #333333;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: '楷体';
+  background: transparent;
+  border-top: 1px solid #e6e7ed;
+}
+#novelIntroduction .div-slide{
+  height: 200px;
+  width: 100%;
+  background: #23b383;
+}

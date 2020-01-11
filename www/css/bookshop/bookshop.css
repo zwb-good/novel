@@ -1,0 +1,260 @@
+#bookshop {
+  width: 100%;
+  height: 100%;
+}
+#bookshop ion-content{
+  /* background: #ebe9e9; */
+}
+.bookshopSearch {
+  background-color: #f37171;
+}
+.bookshopSearch label {
+  background-color: #ffffff;
+}
+.bookshopSearch label i {
+  font-size: 20px;
+  line-height: 35px;
+}
+#bookshop .bookshopSearch label input {
+  font-size: 16px;
+  font-family: '行楷';
+}
+.bookshopSearch a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 10px;
+  font-size: 18px;
+  font-family: '行楷';
+}
+.bookshopSlide{
+  width: 100%;
+  height: 200px;
+}
+.xl-slide-img{
+  width: 100%;
+  height: 100%;
+}
+.bookshopTabs {
+  width: 100%;
+  height: 55px;
+  background-color: #f7f7f7;
+}
+.bookshopTabs div {
+  display: inline-block;
+  width: 24%;
+  height: 55px;
+  text-align: center;
+}
+.bookshopTabs div a {
+  display: block;
+  width: 35px;
+  text-align: center;
+  margin: 0 auto;
+}
+.bookshopTabs div a i {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.fenlei {
+  width: 30px;
+  height: 30px;
+  background: url(../../img/sprite.png);
+}
+.paihang {
+  width: 35px;
+  height: 35px;
+  background: url(../../img/sprite.png) -40px 0;
+}
+.chuban {
+  width: 30px;
+  height: 30px;
+  background: url(../../img/sprite.png) -80px 0;
+}
+.duanpian {
+  width: 30px;
+  height: 30px;
+  background: url(../../img/sprite.png) -120px 0;
+}
+
+.bookshopRecommend {
+  width: 100%;
+  /* height: 354px; */
+}
+#bookshop .sortTitle{
+  height: 50px;
+  width: 100%;
+  float: left;
+  border-radius: 5px;
+  background: #ebe9e9;
+  margin-top: 6px
+}
+#bookshop .title{
+  height: 50px;
+  width: 50%;
+  float: left;
+  font-family: '楷体';
+  font-size: 18px;
+  line-height: 50px;
+}
+.title div i {
+  font-size: 0px;
+  vertical-align: middle;
+}
+#bookshop .more{
+  height: 50px;
+  width: 50%;
+  float: left;
+  font-family: '楷体';
+  font-size: 16px;
+  line-height: 50px;
+  padding-left: 110px;
+}
+#bookshop .recommendTitle div i {
+  font-size: 20px;
+  vertical-align: middle;
+}
+.recommendLeft i {
+  display: inline-block;
+  width: 3px;
+  height: 25px;
+  background: url(../../img/sprite.png) -160px 0;
+}
+#bookshop .bestBook{
+  margin-top: 25px;
+}
+#bookshop  .book{
+  height: 345px;
+  width: 100%;
+  padding-left: 5px;
+}
+#bookshop  .book-row{
+  height: 172px;
+  width: 100%;
+}
+#bookshop .div-book{
+  height: 130px;
+  width: 25%;
+  float: left;
+  margin-top: 10px;
+}
+#bookshop .div-book img{
+  width: 90%;
+  height: 130px;
+  text-align: center;
+}
+#bookshop .div-txt{
+  width: 90px;
+  height: 40px;
+  float: left;
+  text-align: center;
+}
+#bookshop #name{
+  font-family: '楷体';
+  font-size: 14px;
+  margin-top: 5px;
+}
+#bookshop #author{
+  font-family: '楷体';
+  font-size: 12px;
+}
+#bookshop .div-x{
+  float: left;
+  width: 100%;
+  height: 192px;
+  margin: 5px 0px 5px 0px;
+}
+#bookshop .sm-book{
+  float: left;
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+}
+#bookshop .sm-img{
+  width: 63px;
+  height: 92px;
+  float: left;
+  margin: 0px 10px 0px 0px;
+}
+#bookshop .sm-name{
+  font-family: "楷体";
+  font-size: 16px;
+  margin-top: 15px;
+}
+#bookshop .sm-author{
+  font-family: "楷体";
+  font-size: 13px;
+  margin-top:17px;
+  color: grey
+}
+/*广告轮播图*/
+#bookshop .md-slide {
+  float: left;
+  height: 100px;
+  width: 100%;
+  margin: 14px 0 5px 0;
+  background: #f37171;
+}
+#bookshop .md-slide-img {
+  height: 110px;
+  width: 100%;
+}
+#bookshop .div-md{
+  float: left;
+  width: 100%;
+  margin-top: 5px;
+}
+#bookshop .l-book{
+  float: left;
+  width: 100%;
+  height: 120px;
+  padding: 5px 15px 5px 10px;
+}
+#bookshop .l-book .image{
+  height: 110px;
+  width: 28%;
+  float: left;
+}
+#bookshop .l-img{
+  float: right;
+  width: 90%;
+  height: 110px;
+}
+#bookshop .l-book .comment{
+  height: 110px;
+  width: 72%;
+  float: right;
+}
+#bookshop .l-name{
+  height: 25%;
+  width: 92%;
+  font-family: "楷体";
+  font-size: 18px;
+  line-height: 35px;
+  float: right;
+  display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+}
+#bookshop .l-abstract{
+  height: 50%;
+  width: 92%;
+  font-family: "楷体";
+  font-size: 16px;
+  padding: 5px 0px 5px 0px;
+  line-height: 25px;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  float: right;
+  display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2; /** 显示的行数 **/
+  overflow: hidden;  /** 隐藏超出的内容 **/
+}
+#bookshop .l-author{
+  height: 25%;
+  width: 92%;
+  font-family: "楷体";
+  font-size: 15px;
+  line-height: 30px;
+  color: gray;
+  float: right;
+  display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+}

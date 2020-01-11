@@ -1,0 +1,65 @@
+<ion-view id="user" view-title="个人中心" cache-view="false">
+    <ion-header-bar  class="bar">
+        <i class="ion-left ion-chevron-left" ng-click="func_back()"></i>
+        <span class="font-text" ng-click="func_back()">返回</span>
+        <span class="bar-title">个人资料</span>
+        <a class="a-save" id="save">保存</a>
+    </ion-header-bar> 
+    <ion-content scroll="false">
+            <li class="item-tab item-input">
+                <div class="div-show">
+                    <span class="input-label">头像：</span>
+                </div>
+                <div class="div-show1">
+                    <div class="div-img-head"  ng-click="func_changeHeadImage()"
+                    style="background: url('{{headUrl}}') no-repeat; background-size: 100% 100%;"></div>
+                </div>
+                <div  class="div-show2 ion-right ion-chevron-right" ng-click="func_changeHeadImage()"></div>>
+            </li>
+            <li class="item-tab item-input">
+                <div class="div-show">
+                    <span class="input-label">昵称：</span>
+                </div>
+                <div class="div-show1">
+                    <input type="text" id="userName" class="input-content" value="{{data[0].name}}">
+                </div>
+                <div class="div-show2 ion-right ion-chevron-right">
+                </div>
+            </li>
+            <li class="item-tab item-input">
+                <div class="div-show">
+                    <span class="input-label">手机号：</span>
+                </div>
+                <div class="div-show1">
+                    <input type="text" id="phone" class="input-content" disabled="true"  value="{{data[0].user.name}}">
+                </div>
+                <div class="div-show2 ion-right ion-chevron-right">
+                </div>
+            </li>
+            <li class="item-tab item-input">
+                <div class="div-show">
+                    <span class="input-label">性别：</span>
+                </div>
+                <div class="div-show1">
+                    <div class="div-content">
+                        <select id="sex">
+                            <option id="op_men" value="男" selected>男</option>
+                            <option id="op_woman" value="女" >女</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="div-show2 ion-right ion-chevron-right">
+                </div>
+            </li>
+            <li class="item-tab item-input">
+                <div class="div-show">
+                    <span class="input-label">个性签名：</span>
+                </div>
+                <div class="div-show1">
+                    <input type="text" id="word" class="input-content" value="{{data[0].signature}}">
+                </div>
+                <div class="div-show2 ion-right ion-chevron-right">
+                </div>
+            </li>
+    </ion-content>
+</ion-view>

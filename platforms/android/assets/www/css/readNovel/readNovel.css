@@ -1,0 +1,195 @@
+#readNovel {
+  width: 100%;
+  height: 100%;
+}
+#readNovel .bar{
+  float: left;
+  opacity:0.7;
+  background:black;
+}
+#readNovel .font-text{
+  margin-left: -8px;
+  margin-top: 10px;
+  color: white;
+  font: bold 16px '楷体';
+}
+#readNovel .ion-left{
+  width: 28px;
+  height: 28px;
+  color: white;
+  font-size: 28px;
+  margin-left: 10px;
+  margin-top: 5px;
+  vertical-align:middle;
+}
+#readNovel_content {
+  width: 100%;
+  height: 100%;
+  background-color: #fff9eb;
+  overflow: scroll;
+}
+#readNovel .readShow{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+#readNovel .chapter{
+  text-align: center;
+  font-size:35px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+#readNovel .title{
+  text-align: center;
+  font-size:25px;
+  margin: 20px 0px 20px 0px;
+}
+#readNovel .text-m{
+  font-size:20px;
+  font-family: '楷体';
+  text-indent:40px;
+  padding-left: 8px;
+  line-height: 44px;
+  letter-spacing: 1px;
+}
+#readNovel .text-l{
+  font-size:20px;
+  font-family: '行楷';
+  text-indent:40px;
+  padding-left: 8px;
+  line-height: 44px;
+  letter-spacing: 1px;
+}
+#readNovel_content pre {
+  color: #514941;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 44px;
+}
+#readNovel_nav {
+  height: 60px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 1px 1px #ebebeb;
+}
+#readNovel_nav span {
+  display: block;
+  float: left;
+  width: 25%;
+  height: 60px;
+  color: white;
+}
+#readNovel_nav span i {
+  display: block;
+  font-size: 25px;
+  margin: 0px auto;
+  color: white;
+}
+#readNovel_nav span h2 {
+  font-size: 12px;
+  font-weight: 300;
+  color: white;
+  margin-left: 31px;
+}
+#readNovel_left {
+  box-shadow: 5px 0px 5px #888888;
+  background:url('../../img/home/背景1.png'); 
+  background-size: 100% 100%;
+}
+#readNovel .before{
+  width: 80px;
+  height: 100%;
+  float: left;
+  font-size: 24px;
+  font-family: '楷体';
+  text-align: center;
+  background: gray;
+  opacity: 0.5;
+  position: absolute;
+  align-items:center; display: -webkit-flex;
+  justify-content:center; display: -webkit-flex;
+}
+#readNovel .after{
+  width: 80px;
+  height: 100%;
+  float: left;
+  margin-left: 335px;
+  font-size: 24px;
+  font-family: '楷体';
+  text-align: center;
+  background: gray;
+  opacity: 0.5;
+  position: absolute;
+  align-items:center; display: -webkit-flex;
+  justify-content:center; display: -webkit-flex;
+}
+#readNovel .li-catalog{
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+  margin-top: 3px;
+  border-radius: 5px;
+  padding-left:15px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: '楷体';
+  background-color: rgb(228, 212, 212);
+}
+#readNovel .popover{
+  width: 400px;
+  height: 120px;
+  margin-top: 500px;
+}
+.readNovel_background{
+  width: 100%;
+  margin-top: 521px;
+  height: 220px;
+  background-color: rgba(255, 253, 246, 0.9);
+  left: 0px ! important;
+}
+.readNovel_popover_div {
+  width: 95%;
+  height: 50px;
+  margin: 10px auto;
+  line-height: 50px;
+  font-size: 16px;
+  color: #bcb3a9;
+}
+.readNovel_popover_div ul li {
+  display: inline-block;
+}
+.li_button {
+  display: inline-block;
+  width: 90px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 28px;
+  border: 1px solid #6b5b4b;
+  border-radius: 15px;
+}
+.li_font {
+  margin-right: 28px;
+}
+.li_bgColor {
+  margin-right: 28px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  vertical-align: middle;
+}
+.bgColor_1 {
+  background-color: #f0d6a2;
+}
+.bgColor_2 {
+  background-color: #d5efd2;
+}
+.bgColor_3 {
+  background-color: #eacccf;
+}
+.bgColor_4 {
+  background-color: #ccdcf0;
+}
+.readNovel_background li{
+  font-family: '楷体'
+}

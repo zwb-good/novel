@@ -1,0 +1,87 @@
+<ion-view view-title="漫画" id="cartoon">
+    <ion-content>
+        <div class="bar bar-header item-input-inset search">
+            <label class="item-input-wrapper" ng-click="goSearch()">
+                <i class="icon ion-ios-search"></i>
+                <input type="text" placeholder="千与千寻">
+            </label>
+            <a href="#">搜索</a>
+        </div>
+        <ion-slide-box auto-play="true" does-continue="true" on-slide-changed="slideHasChanged(index)"
+            id="cartoonSlide">
+            <ion-slide>
+                <div class="cartoonSlide cartoonSlide_1"></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="cartoonSlide cartoonSlide_2"></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="cartoonSlide cartoonSlide_3"></div>
+            </ion-slide>
+        </ion-slide-box>
+        <div class="cartoonMiddle">
+            <div class="middleTitle">
+                <div class="middleLeft">
+                    <img src="img/strawberry.png">
+                    <span>青春校园</span>
+                </div>
+                <div class="middleRight">
+                    <span class="more" ng-click="goYouthCampus()">更多</span>
+                    <img src="img/turnright.png">
+                </div>
+            </div>
+            <div class="middleFirst">
+                <div class="firstLeft">
+                    <div class="none"></div>
+                    <img src="img/cartoon/cartoon13.jpg">
+                </div>
+                <div class="none"></div>
+                <div class="firstRight">
+                    <img src="img/cartoon/cartoon14.jpg">
+                </div>
+            </div>
+            <div class="middleSecond">
+                <div class="secondLeft">
+                    <div class="none"></div>
+                    <img src="img/cartoon/cartoon3.jpg">
+                </div>
+                <div class="none"></div>
+                <div class="secondRight">
+                    <img src="img/cartoon/cartoon4.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="cartoonBottom">
+            <div class="bottomTitle">
+                <div class="bottomLeft">
+                    <img src="img/fruit.png">
+                    <span>少年漫up</span>
+                </div>
+                <div class="bottomRight">
+                    <span class="more" ng-click="goYouthCampus()">更多</span>
+                    <img src="img/turnright.png">
+                </div>
+            </div>
+            <div class="bottomFirst">
+                <div class="none"></div>
+                <img src="img/cartoon/cartoon7.jpg">
+                <div class="none1"></div>
+            </div>
+            <div class="bottomSecond">
+                <div class="bottomOne">
+                        <div class="none"></div>
+                    <img src="img/cartoon/cartoon5.jpg">
+                </div>
+                <div class="bottomTwo">
+                        <div class="none"></div>
+                    <img src="img/cartoon/cartoon6.jpg">
+                    <div class="none1"></div>
+                </div>
+                <div class="bottomThree">
+                        <div class="none"></div>
+                    <img src="img/cartoon/cartoon8.jpg">
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

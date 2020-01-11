@@ -1,0 +1,12 @@
+angular.module('readNovel.route',['readNovel.controller'])
+.config(function($stateProvider){
+  $stateProvider
+  .state(
+    'readNovel',{
+      url:'/readNovel',
+      templateUrl:'./areas/readNovel/readNovel.html',
+      controller:'ReadNovelController',
+      params:{url:null,startLength:null,endLength:null}
+    }
+  )
+})

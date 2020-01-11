@@ -1,0 +1,79 @@
+<ion-view view-title="小说介绍" id="novelIntroduction" cache-view="false">
+
+  <ion-header-bar align-title="center" class="novelIntroduction_header">
+    <div class="headerBar-bg"></div>
+    <button class="button ion-chevron-left icon-left" ng-click="back()"></button>
+    <span class="sp-title">小说介绍</span>
+    <button class="bt-icon"><i class="icon ion-ios-heart-outline" ng-click="func_collect()"></i></button>
+  </ion-header-bar>
+
+  <div class="novelIntroduction_content scroll-content">
+  
+    <img ng-src="{{data[0].url}}/img?a={{param}}" alt="" class="novelIntroduction_novelCover">
+    <h1 class="novelIntroduction_novelName">{{data[0].name}}</h1>
+    <h3 class="novelIntroduction_novelAuthor">{{data[0].author}}</h3>
+    <h3 class="novelIntroduction_novelType">{{data[0].noveltype.name}}</h3>
+    <p class="novelIntroduction_novelSynopsis">{{data[0].abstractText}}</p>
+    <span class="novelIntroduction_chapter" >
+      <i class="icon ion-clock"></i>
+      <h2 style="font-family: '楷体'">最新</h2>
+      <span style="font-family: '楷体'">{{hot}}</span>
+    </span>
+    <hr>
+    <span class="novelIntroduction_chapter" ui-sref="catalog({bookUrl:'{{url}}'})">
+      <i class="icon ion-ios-list-outline"></i>
+      <h2 style="font-family: '楷体'">目录</h2>
+      <span style="font-family: '楷体'">共{{length}}章</span>
+    </span>
+    <div class="novelIntroduction_comment">
+      <div class="novelIntroduction_comment_title" ui-sref="bookReview">
+        <span class="comment_leftIcon"></span>
+        <span class="comment_leftText">书友互动</span>
+        <span class="comment_rightText" ></span>
+        <span class="comment_rightIcon"></span>
+      </div>
+
+      <ion-slide-box on-slide-changed="slideHasChanged(index)" auto-play="true" show-pager="false" does-continue="true"
+        slide-interval="2000" ng-show="isShow">
+          <ion-slide ng-click="func_detail(1)">
+            <div class="novelIntroduction_comment_content">
+              <div>
+                <img ng-src="{{comment1.reader.headUrl}}?a={{param}}" class="comment_img">
+                <span class="comment_name">{{comment1.reader.name}}</span>
+                <input type="hidden" id="txt_1" value="{{comment1.id}}">
+              </div>
+              <p class="comment_content">{{comment1.content}}</p>
+            </div>
+          </ion-slide>
+          <ion-slide  ng-click="func_detail(2)">
+            <div class="novelIntroduction_comment_content">
+              <div>
+                <img ng-src="{{comment2.reader.headUrl}}?a={{param}}" class="comment_img">
+                <span class="comment_name">{{comment2.reader.name}}</span>
+                <input type="hidden" id="txt_2" value="{{comment2.id}}">
+              </div>
+              <p class="comment_content">{{comment2.content}}</p>
+            </div>
+          </ion-slide>
+          <ion-slide  ng-click="func_detail(3)">
+            <div class="novelIntroduction_comment_content">
+              <div>
+                <img ng-src="{{comment3.reader.headUrl}}?a={{param}}" class="comment_img">
+                <span class="comment_name">{{comment3.reader.name}}</span>
+                <input type="hidden" id="txt_3" value="{{comment3.id}}">
+              </div>
+              <p class="comment_content">{{comment3.content}}</p>
+            </div>
+          </ion-slide> 
+      </ion-slide-box>
+
+      <a class="button button-block seeAllComment" ui-sref="bookReview({bookId:'{{bookId}}'})">查看全部评论</a>
+    </div>
+  </div>
+
+  <ion-footer-bar class="novelIntroduction_footer">
+    <span class="novelIntSpan_2" ng-click="addBook()">加入书架</span>
+    <span class="novelIntSpan_1" ng-click="func_goRead()">开始阅读</span>
+    <span class="novelIntSpan_2" ng-click="writeComment()">评论本书</span>
+  </ion-footer-bar>
+</ion-view>

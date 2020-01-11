@@ -1,0 +1,11 @@
+<ion-view id="catalog"  view-title="目录" cache-view="false">
+    <ion-header-bar class="bar">
+        <i class="ion-left ion-chevron-left" ng-click="func_back()"></i>
+        <h2 class="title">目录</h2>
+    </ion-header-bar>
+    <ion-content>
+        <li class="li-catalog" ng-repeat="item in data" ng-click="func_read({{item.startLength}},{{item.endLength}},{{item.index}},{{data.length}})">
+            <p>{{item.title}}</p>
+        </li>
+    </ion-content>
+</ion-view>

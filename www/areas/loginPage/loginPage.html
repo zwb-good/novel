@@ -1,0 +1,37 @@
+<ion-view hide-nav-bar="true" class="background1">
+  <ion-content class="background2">
+    <div class="shulu">
+      <label class="item item-input re-input">
+        <div class="account-left">
+          <i class="icon ion-person" style="color: black"></i>
+        </div>
+        <div class="account-center">
+          <img src="img/straight.png">
+        </div>
+        <div class="account-right">
+          <input type="text" placeholder="手机号/账号/邮箱" ng-model="name" ng-focus="clearError()">
+        </div>
+      </label>
+      <label class="item item-input re-input">
+        <div class="password-left">
+          <i class="icon ion-locked" style="color: black"></i>
+        </div>
+        <div class="password-center">
+          <img src="img/straight.png">
+        </div>
+        <div class="password-right">
+          <input type="password" placeholder="密码" ng-model="password" ng-focus="clearError()">
+        </div>
+      </label>
+    </div>
+    <div class="false">
+      <span id="login_error" style="color: red">{{error}}</span>
+    </div>
+    <div class="re-button">
+      <button class="button button-block" ng-click="login(name,password)">登录</button>
+      <a href="#" class="forget">忘记密码</a>
+      <a ui-sref="registerPage" class="regin">点击注册</a>
+    </div>
+
+  </ion-content>
+</ion-view>

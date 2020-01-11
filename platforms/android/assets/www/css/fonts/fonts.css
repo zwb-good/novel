@@ -1,0 +1,23 @@
+/**
+*   字体引入
+  */
+/* 行楷 */
+@font-face {
+    font-family: '行楷';
+    src: url('../../fonts/xingKai.ttf');
+}
+/* 楷体 */
+@font-face{
+    font-family: '楷体';
+    src: url('../../fonts/kaiTi.ttf');
+}
+/* 华康黑体 */
+@font-face{
+    font-family: '华康黑体';
+    src: url('../../fonts/huaKang.TTF');
+}
+/* 利方黑体 */
+@font-face{
+    font-family: '利方黑体';
+    src: url('../../fonts/liFang.TTF');
+}

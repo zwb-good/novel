@@ -1,0 +1,133 @@
+/**
+* 个人资料样式文件 
+*/
+#user{
+    height: 100%;
+    width: 100%;
+    background: url('../../img/home/backimg.png');
+    background-size: 100% 100%;
+}
+#user .bar{
+    height: 45px;
+    width: 100%;
+    background-color: #ab7171bf;
+    border-color: #ebebeb;
+}
+#user .bar-title{
+    width: 60%;
+    font: bold 20px '楷体';
+    margin-top: 8px;
+    text-align: center;
+}
+#user .a-save{
+    color: #807c7c;;
+    font: bold 18px '楷体';
+    margin-top: 10px;
+    width: 20%;
+}
+#user .save{
+    color: #d83636;;
+    font: bold 18px '楷体';
+    margin-top: 10px;
+}
+#user .font-text{
+    width: 10%;
+    margin-top: 12px;
+    font: bold 16px '楷体';
+    text-align: left;
+}
+#user .ion-left{
+    width:10%;
+    height: 28px;
+    color: black;
+    font-size: 28px;
+    margin-top: 5px;
+    vertical-align:middle;
+    text-align: center;
+}
+#user .item-header{
+    min-height: 80px;
+    font-size: 20px;
+    vertical-align:middle;
+}
+#user .item-tab{
+    color: #444;
+    z-index: 2;
+    display: block;
+    margin: -1px;
+    border: 1px solid #444;
+    height: 80px;
+}
+#user .div-show{
+    float: left;
+    width: 40%;
+}
+#user .div-show1{
+    float: left;
+    width: 50%;
+}
+#user .div-show2{
+    float: right;
+    width: 10%;
+    height: 80px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+#user .input-label {
+    display: table;
+    padding: 7px 10px 7px 0px;
+    max-width: 200px;
+    width: 90%;
+    color: #444;
+    font: bold 20px '楷体';
+    margin-top: 20px;
+    float: left;
+}
+#user .div-img-head{
+    height: 60px;
+    width: 60px;
+    margin-top: 6px;
+    margin-right: 10px;
+    border-radius: 30px;
+    float: right
+    
+}
+#user .input-content{
+    margin-top: 16px;
+    font: 16px '楷体';
+    text-align: right;
+    width: 90%;
+    padding-right: 5px; 
+}
+#user .div-content{
+    margin-top: 25px;
+    font: 16px '楷体';
+    text-align: center;
+    width: 90%;
+    padding-right: 5px; 
+}
+#user select{
+    /* 去边框 */
+    border: none; 
+    outline: none;
+    /* 去背景 */
+    background: none;
+    /* 去图标 */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* 自定义 */
+    font: 16px '楷体';
+    float: right;
+}
+#user option{
+    height: 100%;
+    width: 20%;
+    font-size: 16px;
+    font-family: '楷体';
+    text-align:center;
+    text-align-last: center;
+}
+#user input[disabled]{
+    background: none;
+}

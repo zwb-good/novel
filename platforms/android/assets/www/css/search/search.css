@@ -1,0 +1,89 @@
+#searchPage {
+  width: 100%;
+  height: 100%;
+}
+.searchPageSearch {
+  background-color: #f37171;
+}
+.searchPageSearch label {
+  background-color: #ffffff;
+}
+.searchPageSearch label i {
+  font-size: 20px;
+  margin-left: 10px;
+  line-height: 35px;
+}
+.searchPageSearch a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 10px;
+}
+.searchPageSearch button {
+  margin-right: 10px;
+  color: #ffffff;
+  background-color: #f37171;
+}
+.allSearch {
+  width: 100%;
+  height: 230px;
+}
+.allSearch_title {
+  display: inline-block;
+  font-size: 16px;
+  color: #b8b8b8;
+  margin: 30px 0px 30px 10px;
+}
+.allSearch ul li {
+  display: inline-block;
+  margin: 10px;
+}
+.allSearch ul li span {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0px 15px;
+  border-radius: 15px;
+}
+.styleSpan_1 {
+  background-color: #fff8f5;
+  color: #fba65c;
+  border: 1px solid #ffd9c8;
+}
+.styleSpan_2 {
+  background-color: #fdfff5;
+  color: #cee441;
+  border: 1px solid #f0f9b9;
+}
+.styleSpan_3 {
+  background-color: #fffbf5;
+  color: #e9c742;
+  border: 1px solid #ffebc8;
+}
+.search_hr {
+  display: block;
+  height: 8px;
+  background-color: #f0f0f2;
+  margin-top: 40px;
+}
+.searchHistory{
+  width: 100%;
+}
+.search_trash {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 26px;
+  color: #ffffff;
+  background-color: #d8d8d8;
+  border-radius: 13px;
+  float: right;
+  margin: 25px 15px 20px 0px;
+}
+#sp_search{
+  font-size: 20px;
+  font-family: '行楷';
+  margin-left: 5px;
+  color: white;
+}

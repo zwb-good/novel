@@ -1,0 +1,129 @@
+<ion-view view-title="书城" id="bookshop" cache-view="false">
+  <ion-content>
+    <div class="bar bar-header item-input-inset bookshopSearch">
+      <label class="item-input-wrapper" ui-sref="search">
+        <i class="icon ion-ios-search"></i>
+        <input type="text" placeholder="那些回不去的年少时光">
+      </label>
+      <a href="#">搜索</a>
+    </div>
+
+    <ion-slide-box auto-play="true" does-continue="true" on-slide-changed="slideHasChanged(index)" show-pager="false" id="bookshopSlide">
+      <ion-slide ng-repeat="item in topCarousel">
+        <div class="bookshopSlide">
+          <img ng-src="{{item.url}}?a={{param}}" alt="" class="xl-slide-img"
+            ng-click="func_goIntroduction('{{item.bookId}}','{{item.book.url}}')">
+        </div>
+      </ion-slide>
+    </ion-slide-box>
+
+
+    <div class="bookshopTabs">
+      <div class="sort" ui-sref="sort">
+        <a>
+          <i class="fenlei"></i>
+          <span>分类</span>
+        </a>
+      </div>
+      <div class="rankingList" ui-sref="rankingList">
+        <a>
+          <i class="paihang"></i>
+          <span>排行</span>
+        </a>
+      </div>
+      <div class="chuban1" ui-sref="publish">
+        <a>
+          <i class="chuban"></i>
+          <span>出版</span>
+        </a>
+      </div>
+      <div class="duanpian1" ui-sref="shortStory">
+        <a>
+          <i class="duanpian"></i>
+          <span>短篇</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="sortTitle">
+      <div class="title">
+        <div class="recommendLeft">
+          <i></i>
+          <span>精品推荐</span>
+        </div>
+      </div>
+      <div class="more">
+        <span>换一换</span>
+        <i class="icon ion-ios-loop-strong" ng-click="other(0)"></i>
+      </div>
+    </div>
+    <div class="book">
+      <li ng-repeat="item in header" ng-click="func_goIntroduction('{{item.bookId}}','{{item.book.url}}')">
+        <div class="div-book">
+          <img ng-src="{{item.book.url}}/img?a={{param}}" alt="" class="div-img">
+        </div>
+      </li>
+    </div>
+
+    <div class="sortTitle">
+      <div class="title">
+        <div class="recommendLeft">
+          <i>|</i>
+          <span>最好看的书</span>
+        </div>
+      </div>
+      <div class="more">
+        <span>换一换</span>
+        <i class="icon ion-ios-loop-strong" ng-click="other(1)"></i>
+      </div>
+    </div>
+    <div class="book-row">
+      <li ng-repeat="item in middle|limitTo:4" ng-click="func_goIntroduction('{{item.bookId}}','{{item.book.url}}')">
+        <div class="div-book">
+          <img ng-src="{{item.book.url}}/img?a={{param}}" alt="" class="div-img">
+        </div>
+      </li>
+    </div>
+    <div class="div-x">
+      <div class="sm-book" ng-repeat="item in middle|limitTo:4:4"
+        ng-click="func_goIntroduction('{{item.bookId}}','{{item.book.url}}')">
+        <img ng-src="{{item.book.url}}/img??a={{param}}" alt="" class="sm-img">
+        <p class="sm-name">{{item.book.name}}</p>
+        <p class="sm-author">{{item.book.author}}</p>
+      </div>
+    </div>
+
+    <div class="md-slide">
+      <ion-slide-box  auto-play="true" does-continue="true" on-slide-changed="slideHasChanged(index)" show-pager="false">
+        <ion-slide ng-repeat="item in middleCarousel">
+          <img ng-src="{{item.url}}" alt="" class="md-slide-img"
+            ng-click="func_goIntroduction('{{item.bookId}}','{{item.book.url}}')">
+        </ion-slide>
+      </ion-slide-box>
+    </div>
+
+    <div class="sortTitle">
+      <div class="title">
+        <div class="recommendLeft">
+          <i></i>
+          <span>口碑精选</span>
+        </div>
+      </div>
+      <div class="more">
+        <span>换一换</span>
+        <i class="icon ion-ios-loop-strong" ng-click="other(2)"></i>
+      </div>
+    </div>
+    <div class="l-book" ng-repeat="item in bottom"
+        ng-click="func_goIntroduction('{{item.bookId}}','{{item.book.url}}')">
+        <div class="image">
+      <img ng-src="{{item.book.url}}/img?a={{param}}" alt="" class="l-img">
+    </div>
+    <div class="comment">
+      <div class="l-name">{{item.book.name}}</div>
+      <div class="l-abstract">{{item.book.abstractText}}</div>
+      <div class="l-author">{{item.book.author}}</div>
+    </div>
+    </div>
+  </ion-content>
+</ion-view>

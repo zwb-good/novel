@@ -1,0 +1,58 @@
+<ion-view id="bookReview" view-title="书评区" cache-view="false">
+    <ion-header-bar class="bar">
+        <i class="ion-left ion-chevron-left" ng-click="func_back()"></i>
+        <h2 class="title" style="color: white;font-family:楷体;font-size: 22px">书评区</h2>
+    </ion-header-bar>
+    <ion-content>
+        <div class="div-book">
+            <div class="image">
+                <img ng-src="{{bookInfo[0].url}}/img?a={{param}}" alt="" class="bookImg">
+            </div>
+            <div class="comment">
+                <div class="l-name">{{bookInfo[0].name}}</div>
+                <div class="l-abstract">{{bookInfo[0].abstractText}}</div>
+                <div class="l-author">{{bookInfo[0].author}}</div>
+            </div>
+        </div>
+
+        <div class="div-title">
+            <i></i>
+            <span class="word">所有评论</span>
+        </div>
+
+        <div class="comment" ng-repeat="item in data" on-finish-render>
+            <div class="userImg">
+                <div class="image">
+                    <img ng-src="{{item.readerFirst.headUrl}}?a={{param}}" alt="" class="head">
+                    <span>{{item.readerFirst.name}}</span></div>
+                <div class="time">
+                    <span class="sp-time">{{item.time}}</span></div>
+            </div>
+            <div class="div-text">
+                <span>{{item.content}}</span>
+            </div>
+            <div class="div-time">
+                <div class="time" id="isShow_{{item.id}}" ng-click="seeAll('{{item.id}}','{{item.comments}}')">
+                    共有{{item.comments}}条回复</div>
+                <div class="sp-icon2">
+                    <i class="icon ion-ios-chatbubble-outline" ng-click="replay('{{item.id}}')"></i>
+                    <span class="badge sp-badge">{{item.comments}}</span>
+                </div>
+                <div class="sp-icon1">
+                    <span class="fave1" id="likeCtrl_{{item.id}}" ng-click="func_like('{{item.id}}')"></span>
+                    <span class="badge sp-badge" id="likes_{{item.id}}">{{item.likes}}</span>
+                </div>
+            </div>
+            <div id="div_{{item.id}}" class="more_replay">
+                <div class="div-more" ng-repeat="items in item.replaycomment">
+                    <span class="div-sp-name">{{items.reader.name}}</span><span ng-if="items.toUserId" style="font-size: 14px">回复<span class="div-sp-name">{{items.toReader.name}}</span></span>:
+                    <span ng-click="second_replay('{{items.id}}')">{{items.content}}</span>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+    <ion-footer-bar>
+        <h2 class="title1" ui-sref="writeComment({bookId:'{{bookId}}'})"><i class="icon ion-ios-compose-outline"></i>写评论
+        </h2>
+    </ion-footer-bar>
+</ion-view>

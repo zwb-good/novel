@@ -1,0 +1,28 @@
+#catalog{
+    background:url('../../img/home/backimg.png'); 
+    background-size: 100% 100%;
+}
+#catalog .bar{
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    background: gray;
+}
+#catalog .ion-left{
+    width: 28px;
+    height: 28px;
+    color: black;
+    font-size: 28px;
+    vertical-align:middle;
+}
+#catalog .li-catalog{
+    font-size: 24px;
+    font-family: '楷体';
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    margin-top: 1px;
+    padding: 20px;
+    line-height: 40px;
+    background-color: rgb(228, 212, 212);
+}

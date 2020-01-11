@@ -1,0 +1,23 @@
+<ion-view id="replay" view-title="回复评论" cache-view="false">
+    <ion-header-bar class="bar">
+        <i class="ion-left ion-chevron-left" ng-click="func_back()"></i>
+        <h2 class="title">评论详情</h2>
+    </ion-header-bar>
+    <ion-content>
+        <div class="div-comment">
+            <div class="div-user">
+                <img ng-src="{{data[0].reader.headUrl}}?a={{param}}" alt="" class="head">
+                <span>{{data[0].reader.name}}</span>
+            </div>
+            <div class="div-text">
+                <p>{{data[0].content}}</p>
+            </div>
+            <div class="div-time">
+                <span>{{data[0].time}}</span>
+            </div>
+        </div>
+    </ion-content>
+    <ion-footer-bar class="foot-bar">
+        <input type="text" id="input_replay" placeholder="请输入1~200字" class="input-text"><span class="sp-replay" ng-click="func_replay()">回复</span>
+    </ion-footer-bar>
+</ion-view>

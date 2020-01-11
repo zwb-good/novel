@@ -1,0 +1,44 @@
+<ion-popover-view class="has-header readNovel_background">
+  <ion-content>
+    <div class="readNovel_popover_div">
+      <ul>
+        <li>字号</li>
+        <li>
+          <span class="li_button" ng-click="fontSizeDown()">
+            <i class="icon ion-minus-round"></i>
+          </span>
+        </li>
+        <li ng-model="fontSize">{{fontSize}}</li>
+        <li>
+          <span class="li_button" ng-click="fontSizeUp()">
+            <i class="icon ion-plus-round"></i>
+          </span></li>
+        <li style="float: right;">默认</li>
+      </ul>
+    </div>
+    <ion-scroll direction="x" scrollbar-x="false" style="width: 500px; height: 50px">
+    <div class="readNovel_popover_div">
+      <ul>
+        <li class="li_font">字体</li>
+          <li class="li_font" ng-click="changeFont('楷体')">默认字体</li>
+          <li class="li_font" ng-click="changeFont('行楷')">行楷</li>
+          <li class="li_font" ng-click="changeFont('华康黑体')">华康黑体</li>
+          <li class="li_font" ng-click="changeFont('利方黑体')">利方黑体</li>
+        </ul>
+      </div>
+    </ion-scroll>
+    <div class="readNovel_popover_div">
+        <ul>
+          <li style="margin-right:28px;">背景</li>
+          <li><span class="li_bgColor bgColor_1" ng-click="changeBgc('#f0d6a2')"></span></li>
+          <li><span class="li_bgColor bgColor_2" ng-click="changeBgc('#d5efd2')"></span></li>
+          <li><span class="li_bgColor bgColor_3" ng-click="changeBgc('#eacccf')"></span></li>
+          <li><span class="li_bgColor bgColor_4" ng-click="changeBgc('#ccdcf0')"></span></li>
+        </ul>
+      </div>
+
+
+
+
+  </ion-content>
+</ion-popover-view>

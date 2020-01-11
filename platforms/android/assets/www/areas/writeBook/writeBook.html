@@ -1,0 +1,32 @@
+<ion-view id="writeBook" view-title="我的" cache-view="false">
+    <ion-content class="mine">
+        <div class="item-header" ui-sref="{{userSref}}">
+            <img class="backimage" src="img/novelSlide/orange.png">
+            <img class="div-left-head" src="{{headUrl}}?a={{param}}">
+            <div class="div-left-name">{{readerName}}</div>
+        </div>
+        <hr>
+        <ul>
+            <li class="item-tab" ng-click="myNews()">
+                <span class="comment">我的消息</span><span class="sp-icon"><i id="redNews"></i>
+                    <i class="icon ion-ios-bell-outline"></i></span>
+            </li>
+            <hr>
+            <li class="item-tab" ng-click="comment()">
+                <span class="comment">我的书评</span><span class="sp-icon"><i class="icon ion-ios-book-outline"></i></span>
+            </li>
+            <hr>
+            <li class="item-tab" ng-click="collect()">
+                <span class="comment">我的收藏</span><span class="sp-icon"><i class="icon ion-ios-star-outline"></i></span>
+            </li>
+            <hr>
+            <li class="item-tab" ui-sref="skin">
+                <span class="comment">意见反馈</span><span class="sp-icon"><i class="icon ion-ios-paper-outline"></i></span>
+            </li>
+            <hr>
+            <li class="item-tab" ui-sref="loginPage" ng-show="{{home_isShow}}">
+                <span class="comment">退出账号</span><span class="sp-icon"><i class="icon ion-ios-gear-outline"></i></span>
+            </li>
+        </ul>
+    </ion-content>
+</ion-view>

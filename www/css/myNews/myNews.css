@@ -1,0 +1,123 @@
+#myNews .bar{
+    height: 50px;
+    width: 100%;
+    background-color: #ea9898;
+    border-color: #ebebeb;
+    color: white;
+}
+#myNews .bar-title{
+    font: bold 20px '楷体';
+    margin-top: 13px;
+    width: 80%;
+    text-align: center;
+}
+#myNews .font-text{
+    margin-top: 14px;
+    font: bold 16px '楷体';
+    width: 10%;
+    float: left;
+}
+#myNews .ion-left{
+    width: 10%;
+    height: 28px;
+    color: white;
+    font-size: 28px;
+    margin-top: 8px;
+    text-align: center;
+    vertical-align:middle;
+}
+#myNews  .scroll-content{
+    margin-top: 0px;
+    padding-top: 0px;
+    background:url('../../img/home/backimg.png'); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#myNews .div-news{
+    background-color:#c386813b;
+    width: 100%;
+    padding: 0px 0px 10px 0px;
+    margin-top: 5px;
+    border-bottom: 1px #BBBBBB solid;
+}
+#myNews .div-head{
+    height: 70px;
+    width: 100%;
+    padding: 5px;
+    line-height: 30px;
+}
+#myNews .div-head .image{
+    height: 70px;
+    width: 70%;
+    float: left;
+}
+#myNews .div-head .replay{
+    height: 70px;
+    width: 30%;
+    float: right;
+    text-align: center;
+    margin-top: 20px;
+}
+#myNews .headImg{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-left: 20px;
+    border-radius:50%;
+}
+#myNews .sp-name{ 
+    margin-left: 15px;
+    font-size: 25px;
+    font-family: '楷体'
+}
+#myNews .sp-time{ 
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: '楷体';
+}
+#myNews .sp-replay{ 
+    font-size: 18px;
+    color: #d63f3f;
+    font-family: '楷体';
+}
+#myNews .div-msg{ 
+    width: 100%;
+    line-height: 25px;
+    padding-left: 20px;
+    padding-right: 15px;
+    font-family: '楷体';
+    font-size: 18px;
+}
+#myNews .div-gotNews{
+    width: 93%;
+    margin: 2px 10px 2px 10px;
+    padding: 2px 20px 2px 20px;
+    font-family: '楷体';
+    font-size: 18px;
+    line-height: 25px;
+    border: 1px solid #9e8282;
+    border-radius: 15px;
+}
+#myNews .sp-friend-name{
+    font: bold 18px '楷体';
+}
+#myNews .sp-lab-replay{
+    font-size: 17px;
+    font-family: '楷体';
+}
+#myNews .item{
+    border: 1px solid #d4c6c6;
+    border-radius: 10px 10px 10px 10px;
+    height: 30px;
+    width: 93%;
+    margin-left: 10px;
+    margin-top: 5px;
+    line-height: 30px;
+    background-color: rgb(255, 255, 255);
+}
+#myNews .item input{
+    font-size: 15px;
+    font-family: '楷体';
+    line-height: 35px;
+    width: 80%;
+}

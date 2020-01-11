@@ -1,0 +1,85 @@
+#bookList .bar{
+    height: 50px;
+    width: 100%;
+    background-color: #f37171;
+    border-color: #f37171;
+}
+#bookList .bar-title{
+    margin-left: 100px;
+    font: bold 20px '楷体';
+    color: white;
+    margin-top: 8px;
+}
+#bookList .font-text{
+    margin-left: -8px;
+    margin-top: 10px;
+    color: white;
+    font: bold 16px '楷体';
+}
+#bookList .ion-left{
+    width: 28px;
+    height: 28px;
+    color: white;
+    font-size: 28px;
+    margin-left: 10px;
+    margin-top: 5px;
+    vertical-align:middle;
+}
+#bookList .ion-right{
+    width: 35px;
+    height: 35px;
+    color: white;
+    font-size: 30px;
+    margin-left: 120px;
+    margin-top: 5px;
+}
+#bookList  .bg{
+    margin-top: 0px;
+    padding-top: 0px;
+    background:url('../../img/home/backimg.png'); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#bookList .li-bookList{
+    padding: 10px;
+    background: #c5d8553b;
+    border: 1px solid white;
+}
+#bookList .li-i-book{
+    width: 74px;
+    height: 110px;
+    margin: 0px 20px 0px 10px;
+    float: left;
+}
+#bookList #name{
+    font-size: 20px;
+    font-style: bold;
+    font-family: '楷体';
+    height: 30px;
+    line-height: 30px;
+}
+#bookList .bg{
+    margin-top: 0px;
+    padding-top: 0px;
+    background:url('../../img/home/backgimage1.png'); 
+    background-size: 100% 100%;
+    background-attachment: scroll;
+}
+#bookList #abstract{
+    font-size: 16px;
+    font-family: '行楷';
+    height: 50px;
+    line-height: 25px;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+    -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+    -webkit-line-clamp: 2; /** 显示的行数 **/
+    overflow: hidden;  /** 隐藏超出的内容 **/
+}
+#bookList #author{
+    font-size: 18px;
+    font-family: '楷体';
+    height: 30px;
+    line-height: 30px;
+}

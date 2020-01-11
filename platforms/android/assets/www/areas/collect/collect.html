@@ -1,0 +1,34 @@
+<ion-view id="collect" view-title="我的收藏" cache-view="false">
+    <ion-header-bar class="bar">
+        <i class="ion-left ion-chevron-left" ng-click="func_back()"></i>
+        <span class="font-text" ng-click="func_back()">返回</span>
+        <span class="bar-title">我的收藏</span>
+    </ion-header-bar>
+    <ion-content>
+        <div class="div-txt">
+            <img src="img/collect.png">
+            <span>收藏:共{{total}}本</span>
+        </div>
+        <ion-list>
+            <ion-item ng-repeat="item in data" style="background-color: #9e9e9e00">
+                <div class="book">
+                    <div class="div-book" ng-click="func_goIntroduction('{{item.bookId}}','{{item.book.url}}')">
+                        <div class="div-img">
+                            <img ng-src="{{item.book.url}}/img?a={{param}}" alt="" class="book">
+                        </div>
+                        <div class="div-title">
+                            <p class="p-title">{{item.book.name}}</p>
+                            <p class="p-author">{{item.book.author}}</p>
+                        </div>
+                    </div>
+                    <div class="div-bottom">
+                        <div class="div-time">{{item.time}}</div>
+                        <div class="div-news" ng-click="showConfirm('{{item.book.name}}','{{item.id}}')"><img src="img/delete.png">
+                            <span class="sp-badge">删除</span>
+                        </div>
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

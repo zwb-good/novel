@@ -1,0 +1,79 @@
+#youthCampus{
+    height: 100%;
+    width:100%;
+}
+#youthCampus .header{
+    height:50px;
+    width:100%;
+    background-color: white;
+    box-shadow:2px 1px 4px grey;
+}
+#youthCampus .header-left {
+    height:50px;
+    width: 30%;
+    float: left;
+    font-size:32px;
+    padding-left: 16px;
+    margin-top: 8px;
+
+}
+#youthCampus .header-center span{
+    height:50px;
+    width: 230px;
+    float: right;
+    font-size: 21px;
+    padding-top: 13px;
+}
+#youthCampus .book{
+    height:200px;
+    width:100%;
+    margin-top: 11px;
+}
+#youthCampus .bookPicturey{
+    height:200px;
+    width:150px;
+    float: left;
+}
+#youthCampus .bookContent{
+    height: 200px;
+    width: 260px;
+    float: right;
+ 
+}
+#youthCampus .bookPicturey  img{
+    height:190px;
+    width:150px;
+    float: left;
+    padding-left:9px;
+    padding-top:5px;
+}
+#youthCampus .contentTitle{
+    height: 20%;
+    width: 100%;
+    font-size: 17px;
+    padding-top: 17px;
+} 
+#youthCampus .contentOutline{
+    height: 60%;
+    width:100%;
+}
+#youthCampus .contentOutline p{
+    height:80%;
+    width:100%;
+    margin: 8px auto;
+  font-size: 14px;
+  color: #988585;
+  line-height: 25px;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 4; /** 显示的行数 **/
+  overflow: hidden;  /** 隐藏超出的内容 **/
+}
+#youthCampus .contentState{
+    height:10%;
+    width:100%;
+    font-size: 14px;
+    color: black;
+}

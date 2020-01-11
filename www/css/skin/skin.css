@@ -1,0 +1,93 @@
+#skin .bar{
+    height: 50px;
+    width: 100%;
+    background-color: #ab7171bf;
+    border-color: #ebebeb;
+}
+#skin .bar-title{
+    margin-left: 100px;
+    font: bold 20px '楷体';
+    margin-top: 8px;
+}
+#skin .font-text{
+    margin-left: -8px;
+    margin-top: 10px;
+    font: bold 16px '楷体';
+}
+#skin .ion-left{
+    width: 28px;
+    height: 28px;
+    color: black;
+    font-size: 28px;
+    margin-left: 10px;
+    margin-top: 5px;
+    vertical-align:middle;
+}
+#skin  .scroll-content{
+    margin-top: 0px;
+    padding-top: 0px;
+    background:url('../../img/home/backimg.png'); 
+    background-size: 100% 100%;
+    background-attachment: scroll;
+}
+#skin .descr{
+    width:100%;
+    height: 98px;
+    font: bold 16px '楷体';
+    margin: 6px 0 0 0px;
+    border-bottom: 1px #ebebeb solid
+}
+#skin .image{
+    width:100%;
+    height: 177px;
+    font: bold 16px '楷体';
+    margin: 23px 0 0 0px;
+    border-bottom: 1px #ab8b8b9e solid
+}
+#skin .descr-head{
+    width:100%;
+    height: 39px;
+    font: bold 16px '楷体';
+    padding: 10px 0 0 0px;
+    background-color: #d67b7b7d
+}
+#skin .image-head{
+    width:100%;
+    height: 39px;
+    font: bold 16px '楷体';
+    padding: 12px 0 0 0px;
+    background-color: #d67b7b7d
+}
+#skin .descr-bottom{
+    width:100%;
+    height: 100px;
+    font: bold 16px '楷体';
+    border:1px #ebebeb solid;
+    margin: 1px 0 0 0px;
+}
+
+#skin .div-img-head{
+    height: 112px;
+    width: 100%;
+    margin-top: 6px;
+    margin-left: 0px;
+    background-color: #d67b7b7d;
+}
+#skin .finish{
+    height: 112px;
+    width: 100%;
+    margin-top: 6px;
+    padding: 40px 0px 0px 120px;
+}
+#skin .finish input{
+    border:1px grey solid;
+    background-color: #cddc394a;
+    width: 164px;
+    height: 38px;
+    font: 16px '楷体';
+    border-radius:12px;
+}
+ .finish input:hover{
+    cursor: pointer;
+    background-color: #df0d6f4a
+}
